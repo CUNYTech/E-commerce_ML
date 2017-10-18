@@ -14,6 +14,7 @@ export default class RegisterForm extends Component {
 
           <TextInput style={styles.textinput}
            placeholder="Your name"
+           id="RegYourName"
            placeholderTextColor="rgba(255,255,255,0.5)"
            returnKeyType="next"
            underlineColorIos={'transparent'}
@@ -22,6 +23,7 @@ export default class RegisterForm extends Component {
 
           <TextInput style={styles.textinput}
            placeholder="Username"
+           id="RegUserName"
            placeholderTextColor="rgba(255,255,255,0.5)"
            returnKeyType="next"
            underlineColorIos={'transparent'}
@@ -30,6 +32,7 @@ export default class RegisterForm extends Component {
 
            <TextInput style={styles.textinput}
             placeholder="Your email"
+            id="RegEmail"
             placeholderTextColor="rgba(255,255,255,0.5)"
             returnKeyType="next"
             underlineColorIos={'transparent'}
@@ -40,6 +43,7 @@ export default class RegisterForm extends Component {
 
           <TextInput style={styles.textinput}
            placeholder="Password"
+           id="RegPass"
            placeholderTextColor="rgba(255,255,255,0.5)"
            returnKeyType="next"
            underlineColorIos={'transparent'}
@@ -48,6 +52,7 @@ export default class RegisterForm extends Component {
 
            <TextInput style={styles.textinput}
             placeholder="Password Confirm"
+            id="RegPassConf"
             placeholderTextColor="rgba(255,255,255,0.5)"
             returnKeyType="go"
             underlineColorIos={'transparent'}
