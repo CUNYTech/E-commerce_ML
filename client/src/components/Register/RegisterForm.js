@@ -51,15 +51,15 @@ export default class RegisterForm extends Component {
            />
 
            <TextInput style={styles.textinput}
-            placeholder="Password Confirm"
-            id="RegPassConf"
+            placeholder="Confirm Password"
+            id="RegCofPass"
             placeholderTextColor="rgba(255,255,255,0.5)"
             returnKeyType="go"
             underlineColorIos={'transparent'}
             secureTextEntry={true}
            />
 
-           <TouchableOpacity style={styles.buttonContainer}>
+           <TouchableOpacity style={styles.buttonContainer} onPress={() => this.props.navSubmit()}>
            <Text style={styles.buttonText}>SIGN UP</Text>
            </TouchableOpacity>
         </View>

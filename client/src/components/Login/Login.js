@@ -3,7 +3,19 @@ import { StyleSheet, View, Image, Text, KeyboardAvoidingView } from 'react-nativ
 import LoginForm from './LoginForm';
 
 export default class Login extends Component {
+
+  navToRegister = () => {
+    const {navigate} = this.props.navigation
+    navigate('Register')
+  }
+
+ navToMain = () =>{
+   const {navigate} = this.props.navigation
+   navigate('Main')
+ }
+
   render() {
+
     return (
     <KeyboardAvoidingView behavior="padding" style={styles.container}>
      <View style={styles.logoContainer}>
@@ -13,7 +25,11 @@ export default class Login extends Component {
        <Text style={styles.title}>An app made for CUNY Codes using React Native</Text>
      </View>
      <View style={styles.formContainer}>
-      <LoginForm />
+
+      <LoginForm navRegister={this.navToRegister}
+                 navMain= {this.navToMain}
+       />
+
      </View>
     </KeyboardAvoidingView>
     );
