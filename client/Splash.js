@@ -5,7 +5,7 @@ export default class Splash extends Component {
     return(
       <View style={styles.wrapper}>
          <View style={styles.titleWrapper}>
-          <Text style={styles.title}>E-Commerce App</Text>
+          <Text style={styles.title}>E-Commerce_ML</Text>
          </View>
          <View>
           <Text style={styles.subTitle}>Powered By React Native</Text>

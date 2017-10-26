@@ -6,6 +6,7 @@ import { View,
         Text,
         StatusBar
 } from 'react-native';
+import { Actions } from 'react-native-router-flux';
 
 export default class LoginForm extends Component {
   render() {
@@ -16,6 +17,7 @@ export default class LoginForm extends Component {
      />
       <TextInput
        placeholder="Username or Email"
+       id="LogUserName"
        placeholderTextColor="rgba(255,255,255,0.7)"
        returnKeyType="next"
        onSubmitEditing={()=>this.passwordInput.focus()}
@@ -26,17 +28,18 @@ export default class LoginForm extends Component {
       />
       <TextInput
        placeholder="Password"
+       id="LogPass"
        placeholderTextColor="rgba(255,255,255,0.7)"
        returnKeyType="go"
        secureTextEntry
        style={styles.input}
        ref={(input) => this.passwordInput = input}
       />
-      <TouchableOpacity style={styles.buttonContainer}>
+      <TouchableOpacity style={styles.buttonContainer} onPress={() => this.props.navRegister()}>
       <Text style={styles.buttonText}>REGISTER</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity style={styles.buttonContainer}>
+      <TouchableOpacity style={styles.buttonContainer} onPress={() => this.props.navMain()}>
       <Text style={styles.buttonText}>LOGIN</Text>
       </TouchableOpacity>
 

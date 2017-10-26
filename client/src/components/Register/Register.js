@@ -7,11 +7,27 @@ import { Text,
 import RegisterForm from './RegisterForm';
 
 export default class Register extends Component {
+
+  navToLogin = () => {
+    const {navigate} = this.props.navigation
+    navigate('Login')
+  }
+
+  static navigationOptions = {
+headerTintColor: '#fff',
+headerStyle: {
+backgroundColor: '#1abc9c',
+},
+headerTitleStyle: {
+fontSize: 18
+}
+};
+
   render() {
     return (
         <KeyboardAvoidingView behavior="padding" style={styles.Register}>
 
-        <RegisterForm />
+        <RegisterForm  navSubmit={this.navToLogin}/>
         </KeyboardAvoidingView>
     );
   }

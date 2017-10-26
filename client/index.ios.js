@@ -1,22 +1,32 @@
 import React, { Component } from 'react';
-import { AppRegistry,
-        Text,
-        View,
-        StyleSheet
-} from 'react-native';
+import { AppRegistry
+ } from 'react-native';
+ import { StackNavigator } from 'react-navigation';
+
 import Splash from './Splash';
 import Login from './src/components/Login/Login';
 import Register from './src/components/Register/Register';
+import Main from './src/components/Main';
+
+export const App = StackNavigator({
+
+  Login: { screen: Login },
+  Register: { screen: Register },
+  Main: { screen: Main },
+
+});
 
 export default class AwesomeProject extends Component {
   render() {
     return (
 
-    <Register />
-    
+      < App/>
+
+
     );
   }
 }
+
 
 // skip this line if using Create React Native App
 AppRegistry.registerComponent('AwesomeProject', () => AwesomeProject);
