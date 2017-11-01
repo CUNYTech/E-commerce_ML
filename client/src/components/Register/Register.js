@@ -16,7 +16,7 @@ export default class Register extends Component {
   static navigationOptions = {
 headerTintColor: '#fff',
 headerStyle: {
-backgroundColor: '#1abc9c',
+display: 'none',
 },
 headerTitleStyle: {
 fontSize: 18
