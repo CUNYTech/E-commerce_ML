@@ -3,8 +3,48 @@ import { Text,
         View,
         StyleSheet
 } from 'react-native';
+import { TabNavigator } from 'react-navigation';
 
-export default class Register extends Component {
+import Feed from './Tabs/Feed';
+import Camera from './Tabs/Camera';
+import About from './Tabs/About';
+
+var MainScreenNavigator = TabNavigator({
+  Feed: {screen: Feed},
+  Camera: {screen: Camera},
+  About: {screen: About},
+},{
+  tabBarPosition:'bottom',
+  swipeEnabled: true,
+
+  tabBarOptions:{
+    activeTintColor: 'white',
+    activeBackgroundColor: '#1abc9c',
+    inactiveTintColor: '#1abc9c',
+
+  labelStyle: {
+      fontSize: 13,
+      padding: 0,
+
+    }
+  }
+ }
+);
+
+MainScreenNavigator.navigationOptions = {
+  title: "E-Commerce",
+  headerTintColor: '#1abc9c',
+
+};
+
+
+
+export default MainScreenNavigator;
+
+
+
+
+/*export default class Register extends Component {
 
   static navigationOptions = {
   title: 'HOME',
@@ -18,7 +58,8 @@ export default class Register extends Component {
   fontSize: 18,
   fontWeight:'700'
   }
-  };
+};
+
   render() {
     return (
         <View style={styles.container}>
@@ -29,6 +70,7 @@ export default class Register extends Component {
     );
   }
 }
+
 const styles = StyleSheet.create({
     container: {
      flex: 1,
@@ -44,3 +86,4 @@ const styles = StyleSheet.create({
     }
 
 });
+*/
