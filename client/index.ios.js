@@ -18,7 +18,7 @@ export const App = StackNavigator({
 });
 
 //initialize firebase 
-src="https://www.gstatic.com/firebasejs/4.6.1/firebase.js
+//src="https://www.gstatic.com/firebasejs/4.6.1/firebase.js
 
 const firebaseConfig = {
 apikey:  "AIzaSyACl7ur6GdzKJrWCXrGHwVkhJFMAlX5fWU",
@@ -28,7 +28,7 @@ projectId: "ecommerce-bbcfb",
 storageBucket: "",
 messagingSenderId: "826579844780"
 };
-const firebaseApp.initialize(firebaseConfig);
+//const firebaseApp.initialize(firebaseConfig);
 //end method
  
 export default class AwesomeProject extends Component {
