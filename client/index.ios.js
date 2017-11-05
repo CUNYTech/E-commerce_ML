@@ -18,11 +18,15 @@ export const App = StackNavigator({
 });
 
 //initialize firebase 
+src="https://www.gstatic.com/firebasejs/4.6.1/firebase.js
+
 const firebaseConfig = {
-apikey:  "<our api key goes here>",
-authDomian: "<our auth domain>",
-databaseURL: "<our database url>",
-storageBucket: "<our storage bucket goes here>",
+apikey:  "AIzaSyACl7ur6GdzKJrWCXrGHwVkhJFMAlX5fWU",
+authDomian: "<ecommerce-bbcfb.firebaseapp.com",
+databaseURL: "https://ecommerce-bbcfb.firebaseio.com",
+projectId: "ecommerce-bbcfb",
+storageBucket: "",
+messagingSenderId: "826579844780"
 };
 const firebaseApp.initialize(firebaseConfig);
 //end method
