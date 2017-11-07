@@ -45,7 +45,7 @@ fontSize: 18
            returnKeyType="next"
            underlineColorIos={'transparent'}
            autoCorrect={false}
-           value={'name'}
+          
           />
 
           <TextInput style={styles.textinput}
@@ -54,7 +54,7 @@ fontSize: 18
            returnKeyType="next"
            underlineColorIos={'transparent'}
            autoCorrect={false}
-           value={'username'}
+           
           />
 
            <TextInput style={styles.textinput}
@@ -65,7 +65,7 @@ fontSize: 18
             keyboardType="email-address"
             autoCapitalize="none"
             autoCorrect={false}
-            value={'email'}
+            
            />
 
           <TextInput style={styles.textinput}
@@ -74,7 +74,7 @@ fontSize: 18
            returnKeyType="next"
            underlineColorIos={'transparent'}
            secureTextEntry={true}
-           value={'password'}
+           
            />
 
            <TextInput style={styles.textinput}
@@ -83,7 +83,7 @@ fontSize: 18
             returnKeyType="go"
             underlineColorIos={'transparent'}
             secureTextEntry={true}
-            value={'password2'}
+            
            />
 
            <TouchableOpacity style={styles.buttonContainer} onPress={() => navigate("Login")}>
