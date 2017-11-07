@@ -2,16 +2,23 @@ import React, { Component } from 'react';
 import { Text,
         View,
         StyleSheet,
+         TextInput,
+        TouchableOpacity,
          KeyboardAvoidingView
 } from 'react-native';
-import RegisterForm from './RegisterForm';
+ import { StackNavigator } from 'react-navigation';
+import { Actions } from 'react-native-router-flux';
+import * as firebase from 'firebase';
 
 export default class Register extends Component {
 
-  navToLogin = () => {
-    const {navigate} = this.props.navigation
-    navigate('Login')
-  }
+state = {
+  name: '',
+  username:'',
+  email: '',
+  password: '',
+  password2: '',
+}
 
   static navigationOptions = {
 headerTintColor: '#fff',
@@ -24,10 +31,67 @@ fontSize: 18
 };
 
   render() {
+        const {navigate} = this.props.navigation;
     return (
         <KeyboardAvoidingView behavior="padding" style={styles.Register}>
 
-        <RegisterForm  navSubmit={this.navToLogin}/>
+
+         <View style={styles.container}>
+          <Text style={styles.header}>Registration</Text>
+
+          <TextInput style={styles.textinput}
+           placeholder="Your name"
+           placeholderTextColor="rgba(255,255,255,0.5)"
+           returnKeyType="next"
+           underlineColorIos={'transparent'}
+           autoCorrect={false}
+           value={'name'}
+          />
+
+          <TextInput style={styles.textinput}
+           placeholder="Username"
+           placeholderTextColor="rgba(255,255,255,0.5)"
+           returnKeyType="next"
+           underlineColorIos={'transparent'}
+           autoCorrect={false}
+           value={'username'}
+          />
+
+           <TextInput style={styles.textinput}
+            placeholder="Your email"
+            placeholderTextColor="rgba(255,255,255,0.5)"
+            returnKeyType="next"
+            underlineColorIos={'transparent'}
+            keyboardType="email-address"
+            autoCapitalize="none"
+            autoCorrect={false}
+            value={'email'}
+           />
+
+          <TextInput style={styles.textinput}
+           placeholder="Password"
+           placeholderTextColor="rgba(255,255,255,0.5)"
+           returnKeyType="next"
+           underlineColorIos={'transparent'}
+           secureTextEntry={true}
+           value={'password'}
+           />
+
+           <TextInput style={styles.textinput}
+            placeholder="Confirm Password"
+            placeholderTextColor="rgba(255,255,255,0.5)"
+            returnKeyType="go"
+            underlineColorIos={'transparent'}
+            secureTextEntry={true}
+            value={'password2'}
+           />
+
+           <TouchableOpacity style={styles.buttonContainer} onPress={() => navigate("Login")}>
+           <Text style={styles.buttonText}>SIGN UP</Text>
+           </TouchableOpacity>
+        </View>
+
+
         </KeyboardAvoidingView>
     );
   }
@@ -40,6 +104,40 @@ const styles = StyleSheet.create({
        paddingLeft: 60,
        paddingRight: 60,
 
+    },
+        container: {
+      alignSelf: 'stretch',
+
+    },
+    header:{
+      fontSize: 24,
+      color: '#fff',
+      fontWeight:'700',
+      paddingBottom: 10,
+      marginBottom: 10,
+
+    },
+    textinput:{
+      alignSelf: 'stretch',
+      height: 30,
+      marginBottom: 35,
+      color:'#fff',
+      borderBottomColor: '#fff',
+      borderBottomWidth: 1,
+      fontSize: 16,
+    },
+    buttonContainer: {
+      alignSelf: 'stretch',
+      backgroundColor:'#16a085',
+      paddingVertical: 13,
+      marginBottom: 5,
+      borderRadius:15
+    },
+    buttonText: {
+      textAlign:'center',
+      color: '#FFFFFF',
+      fontWeight: '700'
     }
+
 
 });

@@ -7,6 +7,8 @@ import Splash from './Splash';
 import Login from './src/components/Login/Login';
 import Register from './src/components/Register/Register';
 import Main from './src/components/Main';
+import config from './firebase/config';
+import * as firebase from 'firebase';
 
 export const App = StackNavigator({
 
@@ -17,6 +19,8 @@ export const App = StackNavigator({
 });
 
 export default class AwesomeProject extends Component {
+
+
   render() {
     return (
 
