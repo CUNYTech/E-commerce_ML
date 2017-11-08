@@ -17,8 +17,7 @@ export default class Login extends Component {
   static navigationOptions = {
 headerTintColor: '#fff',
 headerStyle: {
-backgroundColor: '#1abc9c',
-borderBottomColor: 'gray',
+display: 'none',
 },
 headerTitleStyle: {
 fontSize: 18
