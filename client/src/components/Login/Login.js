@@ -11,9 +11,37 @@ import { View,
  import { StackNavigator } from 'react-navigation';
 import { Actions } from 'react-native-router-flux';
 import * as firebase from 'firebase';
+import {firebaseApp} from '../../../firebase/config';
+
 
 export default class Login extends Component {
+constructor(props){
+  super(props);
+    this.state = {
+  email: '',
+  password: '',
+};
+  this.ToRegister = this.ToRegister.bind(this)
+}
 
+
+
+_login(){
+  firebaseApp.auth().signInWithEmailAndPassword(this.state.email, this.state.password).then(function(){
+    alert('success');
+
+  }).catch(function(e) {
+  // Handle Errors here.
+  alert(e);
+  
+  });
+
+}
+
+ToRegister(){
+  const {navigate} = this.props.navigation;
+  navigate("Register");
+}
 
   static navigationOptions = {
 headerTintColor: '#fff',
@@ -26,7 +54,7 @@ fontSize: 18
 };
 
   render() {
-       const {navigate} = this.props.navigation;
+
     return (
 
      
@@ -50,30 +78,36 @@ fontSize: 18
      />
       <TextInput
        placeholder="Email"
-       id="LogUserName"
        placeholderTextColor="rgba(255,255,255,0.7)"
        returnKeyType="next"
        onSubmitEditing={()=>this.passwordInput.focus()}
        keyboardType="email-address"
        autoCapitalize="none"
        autoCorrect={false}
+       underlineColorAndroid={'transparent'}
        style={styles.input}
+       value={this.state.email}
+       onChangeText={(text) => this.setState({ email: text })}
+       
       />
       <TextInput
        placeholder="Password"
-       id="LogPass"
        placeholderTextColor="rgba(255,255,255,0.7)"
        returnKeyType="go"
        secureTextEntry
        style={styles.input}
+       underlineColorAndroid={'transparent'}
        ref={(input) => this.passwordInput = input}
+       value={this.state.password}
+       onChangeText={(text) => this.setState({ password: text })}
+       
       />
 
-      <TouchableOpacity style={styles.buttonContainer} onPress={() => navigate("Main")}>
+      <TouchableOpacity style={styles.buttonContainer} onPress={this._login.bind(this)}>
       <Text style={styles.buttonText}>LOGIN</Text>
       </TouchableOpacity>
 
-       <TouchableOpacity style={styles.buttonContainer} onPress={() => navigate("Register")}>
+       <TouchableOpacity style={styles.buttonContainer} onPress={this.ToRegister}>
       <Text style={styles.buttonText}>REGISTER</Text>
       </TouchableOpacity>
 

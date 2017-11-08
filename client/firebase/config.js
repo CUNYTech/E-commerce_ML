@@ -1,7 +1,7 @@
 import * as firebase from 'firebase';
 
   // Initialize Firebase
-  export const config = {
+ var config = {
     apiKey: "AIzaSyDfku7WtjLU8BviEm5zM3fdNCXpL8T19mc",
     authDomain: "e-commerce-340f5.firebaseapp.com",
     databaseURL: "https://e-commerce-340f5.firebaseio.com",
@@ -10,8 +10,6 @@ import * as firebase from 'firebase';
     messagingSenderId: "720727235568"
   };
  
-const firebaseApp = firebase.initializeApp(config);
-
-export {firebaseApp};
+export const firebaseApp = firebase.initializeApp(config);
  
 
