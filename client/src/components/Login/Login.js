@@ -27,9 +27,11 @@ constructor(props){
 
 
 _login(){
+  const {navigate} = this.props.navigation;
   firebaseApp.auth().signInWithEmailAndPassword(this.state.email, this.state.password).then(function(){
     alert('success');
-
+    
+    navigate("Main");
   }).catch(function(e) {
   // Handle Errors here.
   alert(e);
