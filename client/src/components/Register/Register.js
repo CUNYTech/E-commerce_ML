@@ -41,7 +41,7 @@ ToRegister(){
        alert('success!');
 
      }).catch(function(e){
-      
+
       // Handle Errors here.
      alert(e);
       // ...
@@ -52,12 +52,12 @@ ToRegister(){
     alert('Password didnt matched!');
   }
 
- 
+
 }
 
 
   render() {
-        
+
     return (
         <KeyboardAvoidingView behavior="padding" style={styles.Register}>
 
@@ -77,8 +77,8 @@ ToRegister(){
             autoCorrect={false}
             value={this.state.email}
             onChangeText={(email) => this.setState({ email })}
-            
-            
+
+
            />
 
           <TextInput style={styles.textinput}
@@ -90,7 +90,7 @@ ToRegister(){
            secureTextEntry={true}
            value={this.state.password}
            onChangeText={(password) => this.setState({ password })}
-           
+
            />
 
            <TextInput style={styles.textinput}
@@ -102,8 +102,8 @@ ToRegister(){
             secureTextEntry={true}
             value={this.state.password2}
             onChangeText={(password2) => this.setState({ password2})}
-            
-            
+
+
            />
 
            <TouchableOpacity style={styles.buttonContainer} onPress={this.ToRegister.bind(this)}>

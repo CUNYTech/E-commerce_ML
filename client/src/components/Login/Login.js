@@ -32,8 +32,13 @@ _login(){
 
   }).catch(function(e) {
   // Handle Errors here.
+  console.log ('error', error);
+  this.setState({error})
+
+ // var errorCode = error.code;
+  //var error Message = error.message;
   alert(e);
-  
+
   });
 
 }
@@ -57,10 +62,10 @@ fontSize: 18
 
     return (
 
-     
+
 
     <KeyboardAvoidingView behavior="padding" style={styles.container}>
-    
+
 
    <View style={styles.logoContainer}>
       <Image
@@ -72,7 +77,7 @@ fontSize: 18
 
 
 
-      <View style={styles.container}> 
+      <View style={styles.container}>
      <StatusBar
       barStyle="light-content"
      />
@@ -88,7 +93,7 @@ fontSize: 18
        style={styles.input}
        value={this.state.email}
        onChangeText={(text) => this.setState({ email: text })}
-       
+
       />
       <TextInput
        placeholder="Password"
@@ -100,7 +105,7 @@ fontSize: 18
        ref={(input) => this.passwordInput = input}
        value={this.state.password}
        onChangeText={(text) => this.setState({ password: text })}
-       
+
       />
 
       <TouchableOpacity style={styles.buttonContainer} onPress={this._login.bind(this)}>
@@ -111,7 +116,7 @@ fontSize: 18
       <Text style={styles.buttonText}>REGISTER</Text>
       </TouchableOpacity>
 
-     </View> 
+     </View>
 
 
 
