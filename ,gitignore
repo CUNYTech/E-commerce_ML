@@ -505,5 +505,7 @@ tags
 !*.xcodeproj/project.pbxproj
 !*.xcodeproj/xcshareddata/
 !*.xcworkspace/contents.xcworkspacedata
-/*.gcno
+/*.gcno 
+*/package-lock.json
+package-lock.json
 
