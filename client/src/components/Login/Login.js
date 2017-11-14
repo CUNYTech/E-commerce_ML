@@ -6,12 +6,15 @@ import { View,
         TouchableOpacity,
         Text,
         StatusBar,
-        KeyboardAvoidingView
+        KeyboardAvoidingView,
+        ScrollView,
+        Dimensions,
 } from 'react-native';
- import { StackNavigator } from 'react-navigation';
+import { StackNavigator } from 'react-navigation';
 import { Actions } from 'react-native-router-flux';
 import * as firebase from 'firebase';
 import {firebaseApp} from '../../../firebase/config';
+
 
 
 export default class Login extends Component {
@@ -29,8 +32,6 @@ constructor(props){
 _login(){
   const {navigate} = this.props.navigation;
   firebaseApp.auth().signInWithEmailAndPassword(this.state.email, this.state.password).then(function(){
-    alert('success');
-    
     navigate("Main");
   }).catch(function(e) {
   // Handle Errors here.
@@ -58,17 +59,20 @@ fontSize: 18
   render() {
 
     return (
+     
 
      
 
-    <KeyboardAvoidingView behavior="padding" style={styles.container}>
+    <ScrollView style={{height: Dimensions.get('window').height,  backgroundColor: '#1abc9c'}}>
+
+    
     
 
    <View style={styles.logoContainer}>
       <Image
        style={styles.logo}
        source={require('../../images/logo.png')} />
-       <Text style={styles.title}>An app made for CUNY Codes using React Native</Text>
+       <Text style={styles.title}>Ta-Da!</Text>
      </View>
 
 
@@ -117,7 +121,9 @@ fontSize: 18
 
 
 
-    </KeyboardAvoidingView>
+   
+    </ScrollView>
+
     );
   }
 }
@@ -126,12 +132,16 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#1abc9c',
-    padding:20
+    padding:20,
+    marginTop: 30
   },
+
+
   logoContainer:{
     alignItems: 'center',
     flexGrow: 1,
-    justifyContent: 'center'
+    justifyContent: 'center',
+    padding:100
   },
   logo: {
     width: 100,
@@ -142,7 +152,9 @@ const styles = StyleSheet.create({
     marginTop: 20,
     width: 180,
     textAlign: 'center',
-    opacity: 0.9
+    opacity: 0.9,
+    fontSize: 30,
+    fontWeight: 'bold'
   },
   input: {
     borderRadius:10,
@@ -150,7 +162,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(255,255,255,0.3)',
     marginBottom: 10,
     color: '#FFF',
-    paddingHorizontal:10
+    paddingHorizontal:10,
   },
   buttonContainer: {
     backgroundColor:'#16a085',

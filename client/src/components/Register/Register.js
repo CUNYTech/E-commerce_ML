@@ -38,7 +38,7 @@ fontSize: 18
 ToRegister(){
   if(this.state.password == this.state.password2){
      firebaseApp.auth().createUserWithEmailAndPassword(this.state.email, this.state.password).then(function(){
-       alert('success!');
+       alert('Registration Success!');
 
      }).catch(function(e){
       
@@ -59,7 +59,6 @@ ToRegister(){
   render() {
         
     return (
-        <KeyboardAvoidingView behavior="padding" style={styles.Register}>
 
 
          <View style={styles.container}>
@@ -111,8 +110,6 @@ ToRegister(){
            </TouchableOpacity>
         </View>
 
-
-        </KeyboardAvoidingView>
     );
   }
 }
