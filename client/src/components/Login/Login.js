@@ -33,9 +33,7 @@ _login(){
 
     navigate("Main");
   }).catch(function(e) {
-  // Handle Errors here.
-  console.log ('error', error);
-  this.setState({error})
+  // Handle Errors here
 
  // var errorCode = error.code;
   //var error Message = error.message;
