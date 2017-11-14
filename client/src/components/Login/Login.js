@@ -32,11 +32,19 @@ constructor(props){
 _login(){
   const {navigate} = this.props.navigation;
   firebaseApp.auth().signInWithEmailAndPassword(this.state.email, this.state.password).then(function(){
+<<<<<<< HEAD
+=======
+    alert('success');
+
+>>>>>>> 322be4b6629e90838bc0ada3bcbe575924380984
     navigate("Main");
   }).catch(function(e) {
-  // Handle Errors here.
+  // Handle Errors here
+
+ // var errorCode = error.code;
+  //var error Message = error.message;
   alert(e);
-  
+
   });
 
 }
@@ -61,12 +69,17 @@ fontSize: 18
     return (
      
 
-     
 
+
+<<<<<<< HEAD
     <ScrollView style={{height: Dimensions.get('window').height,  backgroundColor: '#1abc9c'}}>
 
     
     
+=======
+    <KeyboardAvoidingView behavior="padding" style={styles.container}>
+
+>>>>>>> 322be4b6629e90838bc0ada3bcbe575924380984
 
    <View style={styles.logoContainer}>
       <Image
@@ -78,7 +91,7 @@ fontSize: 18
 
 
 
-      <View style={styles.container}> 
+      <View style={styles.container}>
      <StatusBar
       barStyle="light-content"
      />
@@ -94,7 +107,7 @@ fontSize: 18
        style={styles.input}
        value={this.state.email}
        onChangeText={(text) => this.setState({ email: text })}
-       
+
       />
       <TextInput
        placeholder="Password"
@@ -106,7 +119,7 @@ fontSize: 18
        ref={(input) => this.passwordInput = input}
        value={this.state.password}
        onChangeText={(text) => this.setState({ password: text })}
-       
+
       />
 
       <TouchableOpacity style={styles.buttonContainer} onPress={this._login.bind(this)}>
@@ -117,7 +130,7 @@ fontSize: 18
       <Text style={styles.buttonText}>REGISTER</Text>
       </TouchableOpacity>
 
-     </View> 
+     </View>
 
 
 

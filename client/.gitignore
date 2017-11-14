@@ -91,5 +91,3 @@ typings/
 node_modules
 client/ios/build
 client/android/build
-*/package-lock.json
-package-lock.json
