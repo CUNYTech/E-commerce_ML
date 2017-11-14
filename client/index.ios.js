@@ -9,7 +9,7 @@ import Login from './src/components/Login/Login';
 import Register from './src/components/Register/Register';
 import Main from './src/components/Main';
 import * as firebase from 'firebase';
-const firebase = require('firebase');
+//const firebase = require('firebase');
 export const App = StackNavigator({
 
   Login: { screen: Login },
@@ -18,7 +18,7 @@ export const App = StackNavigator({
 
 });
 
-//initialize firebase 
+//initialize firebase
 src="https://www.gstatic.com/firebasejs/4.6.1/firebase.js"
 
 
@@ -34,7 +34,7 @@ src="https://www.gstatic.com/firebasejs/4.6.1/firebase.js"
  const needitapp = firebase.initializeApp(config);
 
 //end method
- 
+
 export default class AwesomeProject extends Component {
   render() {
     return (
