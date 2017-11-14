@@ -18,6 +18,7 @@ export const App = StackNavigator({
 });
 
 
+
 export default class AwesomeProject extends Component {
 
 
