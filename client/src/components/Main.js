@@ -18,22 +18,25 @@ var MainScreenNavigator = TabNavigator({
   swipeEnabled: true,
 
   tabBarOptions:{
-    activeTintColor: 'white',
-    activeBackgroundColor: '#1abc9c',
+    activeTintColor: '#1abc9c',
+    activeBackgroundColor: 'transparent',
     inactiveTintColor: '#1abc9c',
 
   labelStyle: {
       fontSize: 13,
       padding: 0,
-
     }
   }
  }
 );
 
 MainScreenNavigator.navigationOptions = {
-  title: "E-Commerce",
-  headerTintColor: '#1abc9c',
+  title: "TaaDaa",
+  headerTintColor: 'white',
+  headerStyle: {
+    backgroundColor: '#1abc9c',
+    borderBottomColor: 'lightgray',
+  }
 
 };
 

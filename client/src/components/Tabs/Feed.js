@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
     feedIcon: {
       width: 22,
       height: 22,
-      tintColor: 'white',
+      tintColor: '#1abc9c',
 
     }
   });
