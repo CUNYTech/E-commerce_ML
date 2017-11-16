@@ -6,15 +6,12 @@ import { View,
         TouchableOpacity,
         Text,
         StatusBar,
-        KeyboardAvoidingView,
-        ScrollView,
-        Dimensions,
+        KeyboardAvoidingView
 } from 'react-native';
-import { StackNavigator } from 'react-navigation';
+ import { StackNavigator } from 'react-navigation';
 import { Actions } from 'react-native-router-flux';
 import * as firebase from 'firebase';
 import {firebaseApp} from '../../../firebase/config';
-
 
 
 export default class Login extends Component {
@@ -25,6 +22,7 @@ constructor(props){
   password: '',
 };
   this.ToRegister = this.ToRegister.bind(this)
+  this.ToPassword = this.ToPassword.bind(this)
 }
 
 
@@ -33,16 +31,10 @@ _login(){
   const {navigate} = this.props.navigation;
   firebaseApp.auth().signInWithEmailAndPassword(this.state.email, this.state.password).then(function(){
 
-    alert('success');
-
-
-    navigate("Main");
   }).catch(function(e) {
-  // Handle Errors here
-
-
+  // Handle Errors here.
   alert(e);
-
+   navigate("Main");
   });
 
 }
@@ -51,6 +43,12 @@ ToRegister(){
   const {navigate} = this.props.navigation;
   navigate("Register");
 }
+
+ToPassword(){
+  const {navigate} = this.props.navigation;
+  navigate("Password");
+}
+
 
   static navigationOptions = {
 headerTintColor: '#fff',
@@ -68,21 +66,14 @@ fontSize: 18
 
 
 
-
-
-
-
-
-
     <KeyboardAvoidingView behavior="padding" style={styles.container}>
-
 
 
    <View style={styles.logoContainer}>
       <Image
        style={styles.logo}
        source={require('../../images/logo.png')} />
-       <Text style={styles.title}>Ta-Da!</Text>
+       <Text style={styles.title}>TaaDaa made for CUNY Codes using React Native</Text>
      </View>
 
 
@@ -92,6 +83,10 @@ fontSize: 18
      <StatusBar
       barStyle="light-content"
      />
+     <TouchableOpacity style={styles.buttonForgotPass} onPress={this.ToPassword}>
+     <Text style={styles.forgotPass}>Forgot Password?</Text>
+     </TouchableOpacity>
+
       <TextInput
        placeholder="Email"
        placeholderTextColor="rgba(255,255,255,0.7)"
@@ -104,8 +99,8 @@ fontSize: 18
        style={styles.input}
        value={this.state.email}
        onChangeText={(text) => this.setState({ email: text })}
-
       />
+
       <TextInput
        placeholder="Password"
        placeholderTextColor="rgba(255,255,255,0.7)"
@@ -129,10 +124,6 @@ fontSize: 18
 
      </View>
 
-
-
-
-
     </KeyboardAvoidingView>
     );
   }
@@ -142,16 +133,14 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#1abc9c',
-    padding:20,
-    marginTop: 0
+    padding:20
   },
 
 
   logoContainer:{
     alignItems: 'center',
-    
-    justifyContent: 'center',
-    padding:100
+    flexGrow: 0.7,
+    justifyContent: 'center'
   },
   logo: {
     width: 100,
@@ -159,12 +148,19 @@ const styles = StyleSheet.create({
   },
   title:{
     color:'#FFF',
-    marginTop: 20,
+    marginTop:20,
     width: 180,
     textAlign: 'center',
-    opacity: 0.9,
-    fontSize: 30,
-    fontWeight: 'bold'
+    opacity: 0.9
+  },
+  buttonForgotPass:{
+
+  },
+  forgotPass:{
+    color: 'white',
+    textAlign: 'right',
+    paddingBottom: 5,
+    fontWeight: '700'
   },
   input: {
     borderRadius:10,
@@ -172,7 +168,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(255,255,255,0.3)',
     marginBottom: 10,
     color: '#FFF',
-    paddingHorizontal:10,
+    paddingHorizontal:10
   },
   buttonContainer: {
     backgroundColor:'#16a085',

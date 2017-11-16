@@ -19,6 +19,7 @@ constructor(props){
   password: '',
   password2: '',
 };
+this.ToCancel = this.ToCancel.bind(this)
 }
 
 
@@ -36,18 +37,19 @@ fontSize: 18
 
 
 ToRegister(){
+  const {navigate} = this.props.navigation;
   if(this.state.password == this.state.password2){
      firebaseApp.auth().createUserWithEmailAndPassword(this.state.email, this.state.password).then(function(){
-       alert('Registration Success!');
+       alert('success!');
 
+           navigate("Login");
      }).catch(function(e){
 
       // Handle Errors here.
      alert(e);
       // ...
     })
-    const {navigate} = this.props.navigation;
-        navigate("Login");
+
   } else {
     alert('Password didnt matched!');
   }
@@ -55,6 +57,10 @@ ToRegister(){
 
 }
 
+ToCancel(){
+  const {navigate} = this.props.navigation;
+  navigate("Login");
+}
 
   render() {
 
@@ -108,8 +114,13 @@ ToRegister(){
            <TouchableOpacity style={styles.buttonContainer} onPress={this.ToRegister.bind(this)}>
            <Text style={styles.buttonText}>SIGN UP</Text>
            </TouchableOpacity>
+           <TouchableOpacity style={styles.buttonContainer} onPress={this.ToCancel}>
+           <Text style={styles.buttonText}>CANCEL</Text>
+           </TouchableOpacity>
         </View>
 
+
+        </KeyboardAvoidingView>
     );
   }
 }
