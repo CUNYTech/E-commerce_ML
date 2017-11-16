@@ -32,17 +32,15 @@ constructor(props){
 _login(){
   const {navigate} = this.props.navigation;
   firebaseApp.auth().signInWithEmailAndPassword(this.state.email, this.state.password).then(function(){
-<<<<<<< HEAD
-=======
+
     alert('success');
 
->>>>>>> 322be4b6629e90838bc0ada3bcbe575924380984
+
     navigate("Main");
   }).catch(function(e) {
   // Handle Errors here
 
- // var errorCode = error.code;
-  //var error Message = error.message;
+
   alert(e);
 
   });
@@ -67,19 +65,18 @@ fontSize: 18
   render() {
 
     return (
-     
 
 
 
-<<<<<<< HEAD
-    <ScrollView style={{height: Dimensions.get('window').height,  backgroundColor: '#1abc9c'}}>
 
-    
-    
-=======
+
+
+
+
+
     <KeyboardAvoidingView behavior="padding" style={styles.container}>
 
->>>>>>> 322be4b6629e90838bc0ada3bcbe575924380984
+
 
    <View style={styles.logoContainer}>
       <Image
@@ -134,9 +131,9 @@ fontSize: 18
 
 
 
-   
-    </ScrollView>
 
+
+    </KeyboardAvoidingView>
     );
   }
 }
@@ -146,13 +143,13 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#1abc9c',
     padding:20,
-    marginTop: 30
+    marginTop: 0
   },
 
 
   logoContainer:{
     alignItems: 'center',
-    flexGrow: 1,
+    
     justifyContent: 'center',
     padding:100
   },
