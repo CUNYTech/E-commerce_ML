@@ -66,6 +66,7 @@ ToCancel(){
 
     return (
 
+      <KeyboardAvoidingView behavior="padding" style={styles.Register}>
 
          <View style={styles.container}>
           <Text style={styles.header}>Registration</Text>
