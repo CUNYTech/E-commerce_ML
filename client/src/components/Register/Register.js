@@ -23,6 +23,7 @@ constructor(props){
   password: '',
   password2: '',
 };
+this.ToCancel = this.ToCancel.bind(this)
 }
 
 
@@ -40,18 +41,19 @@ fontSize: 18
 
 
 ToRegister(){
+  const {navigate} = this.props.navigation;
   if(this.state.password == this.state.password2){
      firebaseApp.auth().createUserWithEmailAndPassword(this.state.email, this.state.password).then(function(){
-       alert('Registration Success!');
+       alert('success!');
 
+           navigate("Login");
      }).catch(function(e){
 
       // Handle Errors here.
      alert(e);
       // ...
     })
-    const {navigate} = this.props.navigation;
-        navigate("Login");
+
   } else {
     alert('Password didnt matched!');
   }
@@ -59,12 +61,16 @@ ToRegister(){
 
 }
 
+ToCancel(){
+  const {navigate} = this.props.navigation;
+  navigate("Login");
+}
 
   render() {
 
     return (
 
-  <ScrollView style={{height: Dimensions.get('window').height,  backgroundColor: '#1abc9c'}}>
+      <ScrollView style={{height: Dimensions.get('window').height,  backgroundColor: '#1abc9c'}}>
 
          <View style={styles.container}>
           <Text style={styles.header}>Registration</Text>
@@ -112,6 +118,9 @@ ToRegister(){
 
            <TouchableOpacity style={styles.buttonContainer} onPress={this.ToRegister.bind(this)}>
            <Text style={styles.buttonText}>SIGN UP</Text>
+           </TouchableOpacity>
+           <TouchableOpacity style={styles.buttonContainer} onPress={this.ToCancel}>
+           <Text style={styles.buttonText}>CANCEL</Text>
            </TouchableOpacity>
         </View>
 

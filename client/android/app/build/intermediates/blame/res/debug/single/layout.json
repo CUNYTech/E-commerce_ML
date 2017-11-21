@@ -20,6 +20,10 @@
         "source": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_big_media.xml"
     },
     {
+        "merged": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
+        "source": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\AwesomeProject\\react-native-image-picker\\unspecified\\res\\layout\\list_item.xml"
+    },
+    {
         "merged": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
         "source": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_menu_layout.xml"
     },

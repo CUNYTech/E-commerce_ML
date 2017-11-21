@@ -6585,9 +6585,30 @@
                     "startLine": 1212,
                     "startColumn": 4,
                     "startOffset": 93347,
-                    "endLine": 1215,
+                    "endLine": 1219,
+                    "endColumn": 12,
+                    "endOffset": 93753
+                },
+                "from": {
+                    "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\AwesomeProject\\react-native-image-picker\\unspecified\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 9,
+                        "endColumn": 12,
+                        "endOffset": 461
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 1220,
+                    "startColumn": 4,
+                    "startOffset": 93758,
+                    "endLine": 1223,
                     "endColumn": 10,
-                    "endOffset": 93526
+                    "endOffset": 93937
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.48.4\\res\\values\\values.xml",
@@ -6603,12 +6624,12 @@
             },
             {
                 "to": {
-                    "startLine": 1216,
+                    "startLine": 1224,
                     "startColumn": 4,
-                    "startOffset": 93531,
-                    "endLine": 1219,
+                    "startOffset": 93942,
+                    "endLine": 1227,
                     "endColumn": 10,
-                    "endOffset": 93714
+                    "endOffset": 94125
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.48.4\\res\\values\\values.xml",
@@ -6624,12 +6645,12 @@
             },
             {
                 "to": {
-                    "startLine": 1220,
+                    "startLine": 1228,
                     "startColumn": 4,
-                    "startOffset": 93719,
-                    "endLine": 1257,
+                    "startOffset": 94130,
+                    "endLine": 1265,
                     "endColumn": 12,
-                    "endOffset": 96576
+                    "endOffset": 96987
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6645,12 +6666,12 @@
             },
             {
                 "to": {
-                    "startLine": 1258,
+                    "startLine": 1266,
                     "startColumn": 4,
-                    "startOffset": 96581,
-                    "endLine": 1296,
+                    "startOffset": 96992,
+                    "endLine": 1304,
                     "endColumn": 12,
-                    "endOffset": 99578
+                    "endOffset": 99989
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6666,11 +6687,11 @@
             },
             {
                 "to": {
-                    "startLine": 1297,
+                    "startLine": 1305,
                     "startColumn": 4,
-                    "startOffset": 99583,
+                    "startOffset": 99994,
                     "endColumn": 61,
-                    "endOffset": 99640
+                    "endOffset": 100051
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6685,12 +6706,12 @@
             },
             {
                 "to": {
-                    "startLine": 1298,
+                    "startLine": 1306,
                     "startColumn": 4,
-                    "startOffset": 99645,
-                    "endLine": 1307,
+                    "startOffset": 100056,
+                    "endLine": 1315,
                     "endColumn": 12,
-                    "endOffset": 100270
+                    "endOffset": 100681
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6706,12 +6727,12 @@
             },
             {
                 "to": {
-                    "startLine": 1308,
+                    "startLine": 1316,
                     "startColumn": 4,
-                    "startOffset": 100275,
-                    "endLine": 1316,
+                    "startOffset": 100686,
+                    "endLine": 1324,
                     "endColumn": 12,
-                    "endOffset": 100884
+                    "endOffset": 101295
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6727,11 +6748,11 @@
             },
             {
                 "to": {
-                    "startLine": 1317,
+                    "startLine": 1325,
                     "startColumn": 4,
-                    "startOffset": 100889,
+                    "startOffset": 101300,
                     "endColumn": 85,
-                    "endOffset": 100970
+                    "endOffset": 101381
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6746,12 +6767,12 @@
             },
             {
                 "to": {
-                    "startLine": 1318,
+                    "startLine": 1326,
                     "startColumn": 4,
-                    "startOffset": 100975,
-                    "endLine": 1319,
+                    "startOffset": 101386,
+                    "endLine": 1327,
                     "endColumn": 12,
-                    "endOffset": 101083
+                    "endOffset": 101494
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6767,12 +6788,12 @@
             },
             {
                 "to": {
-                    "startLine": 1320,
+                    "startLine": 1328,
                     "startColumn": 4,
-                    "startOffset": 101088,
-                    "endLine": 1323,
+                    "startOffset": 101499,
+                    "endLine": 1331,
                     "endColumn": 12,
-                    "endOffset": 101312
+                    "endOffset": 101723
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6788,12 +6809,12 @@
             },
             {
                 "to": {
-                    "startLine": 1324,
+                    "startLine": 1332,
                     "startColumn": 4,
-                    "startOffset": 101317,
-                    "endLine": 1327,
+                    "startOffset": 101728,
+                    "endLine": 1335,
                     "endColumn": 12,
-                    "endOffset": 101650
+                    "endOffset": 102061
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6809,12 +6830,12 @@
             },
             {
                 "to": {
-                    "startLine": 1328,
+                    "startLine": 1336,
                     "startColumn": 4,
-                    "startOffset": 101655,
-                    "endLine": 1330,
+                    "startOffset": 102066,
+                    "endLine": 1338,
                     "endColumn": 12,
-                    "endOffset": 101810
+                    "endOffset": 102221
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6830,12 +6851,12 @@
             },
             {
                 "to": {
-                    "startLine": 1331,
+                    "startLine": 1339,
                     "startColumn": 4,
-                    "startOffset": 101815,
-                    "endLine": 1333,
+                    "startOffset": 102226,
+                    "endLine": 1341,
                     "endColumn": 12,
-                    "endOffset": 101962
+                    "endOffset": 102373
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6851,12 +6872,12 @@
             },
             {
                 "to": {
-                    "startLine": 1334,
+                    "startLine": 1342,
                     "startColumn": 4,
-                    "startOffset": 101967,
-                    "endLine": 1336,
+                    "startOffset": 102378,
+                    "endLine": 1344,
                     "endColumn": 12,
-                    "endOffset": 102133
+                    "endOffset": 102544
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6872,12 +6893,12 @@
             },
             {
                 "to": {
-                    "startLine": 1337,
+                    "startLine": 1345,
                     "startColumn": 4,
-                    "startOffset": 102138,
-                    "endLine": 1339,
+                    "startOffset": 102549,
+                    "endLine": 1347,
                     "endColumn": 12,
-                    "endOffset": 102300
+                    "endOffset": 102711
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6893,12 +6914,12 @@
             },
             {
                 "to": {
-                    "startLine": 1340,
+                    "startLine": 1348,
                     "startColumn": 4,
-                    "startOffset": 102305,
-                    "endLine": 1343,
+                    "startOffset": 102716,
+                    "endLine": 1351,
                     "endColumn": 12,
-                    "endOffset": 102543
+                    "endOffset": 102954
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6914,12 +6935,12 @@
             },
             {
                 "to": {
-                    "startLine": 1344,
+                    "startLine": 1352,
                     "startColumn": 4,
-                    "startOffset": 102548,
-                    "endLine": 1346,
+                    "startOffset": 102959,
+                    "endLine": 1354,
                     "endColumn": 12,
-                    "endOffset": 102713
+                    "endOffset": 103124
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6935,12 +6956,12 @@
             },
             {
                 "to": {
-                    "startLine": 1347,
+                    "startLine": 1355,
                     "startColumn": 4,
-                    "startOffset": 102718,
-                    "endLine": 1349,
+                    "startOffset": 103129,
+                    "endLine": 1357,
                     "endColumn": 12,
-                    "endOffset": 102886
+                    "endOffset": 103297
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6956,12 +6977,12 @@
             },
             {
                 "to": {
-                    "startLine": 1350,
+                    "startLine": 1358,
                     "startColumn": 4,
-                    "startOffset": 102891,
-                    "endLine": 1352,
+                    "startOffset": 103302,
+                    "endLine": 1360,
                     "endColumn": 12,
-                    "endOffset": 103057
+                    "endOffset": 103468
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6977,12 +6998,12 @@
             },
             {
                 "to": {
-                    "startLine": 1353,
+                    "startLine": 1361,
                     "startColumn": 4,
-                    "startOffset": 103062,
-                    "endLine": 1356,
+                    "startOffset": 103473,
+                    "endLine": 1364,
                     "endColumn": 12,
-                    "endOffset": 103331
+                    "endOffset": 103742
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6998,12 +7019,12 @@
             },
             {
                 "to": {
-                    "startLine": 1357,
+                    "startLine": 1365,
                     "startColumn": 4,
-                    "startOffset": 103336,
-                    "endLine": 1359,
+                    "startOffset": 103747,
+                    "endLine": 1367,
                     "endColumn": 12,
-                    "endOffset": 103530
+                    "endOffset": 103941
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7019,12 +7040,12 @@
             },
             {
                 "to": {
-                    "startLine": 1360,
+                    "startLine": 1368,
                     "startColumn": 4,
-                    "startOffset": 103535,
-                    "endLine": 1362,
+                    "startOffset": 103946,
+                    "endLine": 1370,
                     "endColumn": 12,
-                    "endOffset": 103731
+                    "endOffset": 104142
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.48.4\\res\\values\\values.xml",
@@ -7040,12 +7061,12 @@
             },
             {
                 "to": {
-                    "startLine": 1363,
+                    "startLine": 1371,
                     "startColumn": 4,
-                    "startOffset": 103736,
-                    "endLine": 1365,
+                    "startOffset": 104147,
+                    "endLine": 1373,
                     "endColumn": 12,
-                    "endOffset": 103920
+                    "endOffset": 104331
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.48.4\\res\\values\\values.xml",
@@ -7061,11 +7082,11 @@
             },
             {
                 "to": {
-                    "startLine": 1366,
+                    "startLine": 1374,
                     "startColumn": 4,
-                    "startOffset": 103925,
+                    "startOffset": 104336,
                     "endColumn": 83,
-                    "endOffset": 104004
+                    "endOffset": 104415
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7080,11 +7101,11 @@
             },
             {
                 "to": {
-                    "startLine": 1367,
+                    "startLine": 1375,
                     "startColumn": 4,
-                    "startOffset": 104009,
+                    "startOffset": 104420,
                     "endColumn": 95,
-                    "endOffset": 104100
+                    "endOffset": 104511
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7099,11 +7120,11 @@
             },
             {
                 "to": {
-                    "startLine": 1368,
+                    "startLine": 1376,
                     "startColumn": 4,
-                    "startOffset": 104105,
+                    "startOffset": 104516,
                     "endColumn": 95,
-                    "endOffset": 104196
+                    "endOffset": 104607
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7118,11 +7139,11 @@
             },
             {
                 "to": {
-                    "startLine": 1369,
+                    "startLine": 1377,
                     "startColumn": 4,
-                    "startOffset": 104201,
+                    "startOffset": 104612,
                     "endColumn": 97,
-                    "endOffset": 104294
+                    "endOffset": 104705
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7137,11 +7158,11 @@
             },
             {
                 "to": {
-                    "startLine": 1370,
+                    "startLine": 1378,
                     "startColumn": 4,
-                    "startOffset": 104299,
+                    "startOffset": 104710,
                     "endColumn": 99,
-                    "endOffset": 104394
+                    "endOffset": 104805
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7156,11 +7177,11 @@
             },
             {
                 "to": {
-                    "startLine": 1371,
+                    "startLine": 1379,
                     "startColumn": 4,
-                    "startOffset": 104399,
+                    "startOffset": 104810,
                     "endColumn": 101,
-                    "endOffset": 104496
+                    "endOffset": 104907
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7175,11 +7196,11 @@
             },
             {
                 "to": {
-                    "startLine": 1372,
+                    "startLine": 1380,
                     "startColumn": 4,
-                    "startOffset": 104501,
+                    "startOffset": 104912,
                     "endColumn": 101,
-                    "endOffset": 104598
+                    "endOffset": 105009
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7194,11 +7215,11 @@
             },
             {
                 "to": {
-                    "startLine": 1373,
+                    "startLine": 1381,
                     "startColumn": 4,
-                    "startOffset": 104603,
+                    "startOffset": 105014,
                     "endColumn": 101,
-                    "endOffset": 104700
+                    "endOffset": 105111
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7213,11 +7234,11 @@
             },
             {
                 "to": {
-                    "startLine": 1374,
+                    "startLine": 1382,
                     "startColumn": 4,
-                    "startOffset": 104705,
+                    "startOffset": 105116,
                     "endColumn": 101,
-                    "endOffset": 104802
+                    "endOffset": 105213
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7232,11 +7253,11 @@
             },
             {
                 "to": {
-                    "startLine": 1375,
+                    "startLine": 1383,
                     "startColumn": 4,
-                    "startOffset": 104807,
+                    "startOffset": 105218,
                     "endColumn": 101,
-                    "endOffset": 104904
+                    "endOffset": 105315
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7251,11 +7272,11 @@
             },
             {
                 "to": {
-                    "startLine": 1376,
+                    "startLine": 1384,
                     "startColumn": 4,
-                    "startOffset": 104909,
+                    "startOffset": 105320,
                     "endColumn": 99,
-                    "endOffset": 105004
+                    "endOffset": 105415
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7270,11 +7291,11 @@
             },
             {
                 "to": {
-                    "startLine": 1377,
+                    "startLine": 1385,
                     "startColumn": 4,
-                    "startOffset": 105009,
+                    "startOffset": 105420,
                     "endColumn": 95,
-                    "endOffset": 105100
+                    "endOffset": 105511
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7289,11 +7310,11 @@
             },
             {
                 "to": {
-                    "startLine": 1378,
+                    "startLine": 1386,
                     "startColumn": 4,
-                    "startOffset": 105105,
+                    "startOffset": 105516,
                     "endColumn": 111,
-                    "endOffset": 105212
+                    "endOffset": 105623
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7308,11 +7329,11 @@
             },
             {
                 "to": {
-                    "startLine": 1379,
+                    "startLine": 1387,
                     "startColumn": 4,
-                    "startOffset": 105217,
+                    "startOffset": 105628,
                     "endColumn": 128,
-                    "endOffset": 105341
+                    "endOffset": 105752
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7327,11 +7348,11 @@
             },
             {
                 "to": {
-                    "startLine": 1380,
+                    "startLine": 1388,
                     "startColumn": 4,
-                    "startOffset": 105346,
+                    "startOffset": 105757,
                     "endColumn": 122,
-                    "endOffset": 105464
+                    "endOffset": 105875
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7346,12 +7367,12 @@
             },
             {
                 "to": {
-                    "startLine": 1381,
+                    "startLine": 1389,
                     "startColumn": 4,
-                    "startOffset": 105469,
-                    "endLine": 1382,
+                    "startOffset": 105880,
+                    "endLine": 1390,
                     "endColumn": 12,
-                    "endOffset": 105618
+                    "endOffset": 106029
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7367,12 +7388,12 @@
             },
             {
                 "to": {
-                    "startLine": 1383,
+                    "startLine": 1391,
                     "startColumn": 4,
-                    "startOffset": 105623,
-                    "endLine": 1384,
+                    "startOffset": 106034,
+                    "endLine": 1392,
                     "endColumn": 12,
-                    "endOffset": 105772
+                    "endOffset": 106183
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7388,11 +7409,11 @@
             },
             {
                 "to": {
-                    "startLine": 1385,
+                    "startLine": 1393,
                     "startColumn": 4,
-                    "startOffset": 105777,
+                    "startOffset": 106188,
                     "endColumn": 97,
-                    "endOffset": 105870
+                    "endOffset": 106281
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7407,11 +7428,11 @@
             },
             {
                 "to": {
-                    "startLine": 1386,
+                    "startLine": 1394,
                     "startColumn": 4,
-                    "startOffset": 105875,
+                    "startOffset": 106286,
                     "endColumn": 113,
-                    "endOffset": 105984
+                    "endOffset": 106395
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7426,11 +7447,11 @@
             },
             {
                 "to": {
-                    "startLine": 1387,
+                    "startLine": 1395,
                     "startColumn": 4,
-                    "startOffset": 105989,
+                    "startOffset": 106400,
                     "endColumn": 93,
-                    "endOffset": 106078
+                    "endOffset": 106489
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7445,12 +7466,12 @@
             },
             {
                 "to": {
-                    "startLine": 1388,
+                    "startLine": 1396,
                     "startColumn": 4,
-                    "startOffset": 106083,
-                    "endLine": 1389,
+                    "startOffset": 106494,
+                    "endLine": 1397,
                     "endColumn": 12,
-                    "endOffset": 106218
+                    "endOffset": 106629
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7466,12 +7487,12 @@
             },
             {
                 "to": {
-                    "startLine": 1390,
+                    "startLine": 1398,
                     "startColumn": 4,
-                    "startOffset": 106223,
-                    "endLine": 1391,
+                    "startOffset": 106634,
+                    "endLine": 1399,
                     "endColumn": 12,
-                    "endOffset": 106352
+                    "endOffset": 106763
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7487,11 +7508,11 @@
             },
             {
                 "to": {
-                    "startLine": 1392,
+                    "startLine": 1400,
                     "startColumn": 4,
-                    "startOffset": 106357,
+                    "startOffset": 106768,
                     "endColumn": 95,
-                    "endOffset": 106448
+                    "endOffset": 106859
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7506,11 +7527,11 @@
             },
             {
                 "to": {
-                    "startLine": 1393,
+                    "startLine": 1401,
                     "startColumn": 4,
-                    "startOffset": 106453,
+                    "startOffset": 106864,
                     "endColumn": 111,
-                    "endOffset": 106560
+                    "endOffset": 106971
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7525,11 +7546,11 @@
             },
             {
                 "to": {
-                    "startLine": 1394,
+                    "startLine": 1402,
                     "startColumn": 4,
-                    "startOffset": 106565,
+                    "startOffset": 106976,
                     "endColumn": 99,
-                    "endOffset": 106660
+                    "endOffset": 107071
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7544,11 +7565,11 @@
             },
             {
                 "to": {
-                    "startLine": 1395,
+                    "startLine": 1403,
                     "startColumn": 4,
-                    "startOffset": 106665,
+                    "startOffset": 107076,
                     "endColumn": 115,
-                    "endOffset": 106776
+                    "endOffset": 107187
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7563,11 +7584,11 @@
             },
             {
                 "to": {
-                    "startLine": 1396,
+                    "startLine": 1404,
                     "startColumn": 4,
-                    "startOffset": 106781,
+                    "startOffset": 107192,
                     "endColumn": 95,
-                    "endOffset": 106872
+                    "endOffset": 107283
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7582,11 +7603,11 @@
             },
             {
                 "to": {
-                    "startLine": 1397,
+                    "startLine": 1405,
                     "startColumn": 4,
-                    "startOffset": 106877,
+                    "startOffset": 107288,
                     "endColumn": 111,
-                    "endOffset": 106984
+                    "endOffset": 107395
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7601,12 +7622,12 @@
             },
             {
                 "to": {
-                    "startLine": 1398,
+                    "startLine": 1406,
                     "startColumn": 4,
-                    "startOffset": 106989,
-                    "endLine": 1399,
+                    "startOffset": 107400,
+                    "endLine": 1407,
                     "endColumn": 12,
-                    "endOffset": 107124
+                    "endOffset": 107535
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7622,11 +7643,11 @@
             },
             {
                 "to": {
-                    "startLine": 1400,
+                    "startLine": 1408,
                     "startColumn": 4,
-                    "startOffset": 107129,
+                    "startOffset": 107540,
                     "endColumn": 135,
-                    "endOffset": 107260
+                    "endOffset": 107671
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7641,12 +7662,12 @@
             },
             {
                 "to": {
-                    "startLine": 1401,
+                    "startLine": 1409,
                     "startColumn": 4,
-                    "startOffset": 107265,
-                    "endLine": 1402,
+                    "startOffset": 107676,
+                    "endLine": 1410,
                     "endColumn": 12,
-                    "endOffset": 107424
+                    "endOffset": 107835
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7662,11 +7683,11 @@
             },
             {
                 "to": {
-                    "startLine": 1403,
+                    "startLine": 1411,
                     "startColumn": 4,
-                    "startOffset": 107429,
+                    "startOffset": 107840,
                     "endColumn": 129,
-                    "endOffset": 107554
+                    "endOffset": 107965
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7681,12 +7702,12 @@
             },
             {
                 "to": {
-                    "startLine": 1404,
+                    "startLine": 1412,
                     "startColumn": 4,
-                    "startOffset": 107559,
-                    "endLine": 1405,
+                    "startOffset": 107970,
+                    "endLine": 1413,
                     "endColumn": 12,
-                    "endOffset": 107712
+                    "endOffset": 108123
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7702,12 +7723,12 @@
             },
             {
                 "to": {
-                    "startLine": 1406,
+                    "startLine": 1414,
                     "startColumn": 4,
-                    "startOffset": 107717,
-                    "endLine": 1407,
+                    "startOffset": 108128,
+                    "endLine": 1415,
                     "endColumn": 12,
-                    "endOffset": 107862
+                    "endOffset": 108273
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7723,11 +7744,11 @@
             },
             {
                 "to": {
-                    "startLine": 1408,
+                    "startLine": 1416,
                     "startColumn": 4,
-                    "startOffset": 107867,
+                    "startOffset": 108278,
                     "endColumn": 140,
-                    "endOffset": 108003
+                    "endOffset": 108414
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7742,12 +7763,12 @@
             },
             {
                 "to": {
-                    "startLine": 1409,
+                    "startLine": 1417,
                     "startColumn": 4,
-                    "startOffset": 108008,
-                    "endLine": 1410,
+                    "startOffset": 108419,
+                    "endLine": 1418,
                     "endColumn": 12,
-                    "endOffset": 108147
+                    "endOffset": 108558
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7763,11 +7784,11 @@
             },
             {
                 "to": {
-                    "startLine": 1411,
+                    "startLine": 1419,
                     "startColumn": 4,
-                    "startOffset": 108152,
+                    "startOffset": 108563,
                     "endColumn": 134,
-                    "endOffset": 108282
+                    "endOffset": 108693
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7782,11 +7803,11 @@
             },
             {
                 "to": {
-                    "startLine": 1412,
+                    "startLine": 1420,
                     "startColumn": 4,
-                    "startOffset": 108287,
+                    "startOffset": 108698,
                     "endColumn": 111,
-                    "endOffset": 108394
+                    "endOffset": 108805
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7801,11 +7822,11 @@
             },
             {
                 "to": {
-                    "startLine": 1413,
+                    "startLine": 1421,
                     "startColumn": 4,
-                    "startOffset": 108399,
+                    "startOffset": 108810,
                     "endColumn": 127,
-                    "endOffset": 108522
+                    "endOffset": 108933
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7820,12 +7841,12 @@
             },
             {
                 "to": {
-                    "startLine": 1414,
+                    "startLine": 1422,
                     "startColumn": 4,
-                    "startOffset": 108527,
-                    "endLine": 1415,
+                    "startOffset": 108938,
+                    "endLine": 1423,
                     "endColumn": 12,
-                    "endOffset": 108658
+                    "endOffset": 109069
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7841,12 +7862,12 @@
             },
             {
                 "to": {
-                    "startLine": 1416,
+                    "startLine": 1424,
                     "startColumn": 4,
-                    "startOffset": 108663,
-                    "endLine": 1417,
+                    "startOffset": 109074,
+                    "endLine": 1425,
                     "endColumn": 12,
-                    "endOffset": 108800
+                    "endOffset": 109211
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7862,12 +7883,12 @@
             },
             {
                 "to": {
-                    "startLine": 1418,
+                    "startLine": 1426,
                     "startColumn": 4,
-                    "startOffset": 108805,
-                    "endLine": 1419,
+                    "startOffset": 109216,
+                    "endLine": 1427,
                     "endColumn": 12,
-                    "endOffset": 108942
+                    "endOffset": 109353
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7883,11 +7904,11 @@
             },
             {
                 "to": {
-                    "startLine": 1420,
+                    "startLine": 1428,
                     "startColumn": 4,
-                    "startOffset": 108947,
+                    "startOffset": 109358,
                     "endColumn": 111,
-                    "endOffset": 109054
+                    "endOffset": 109465
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7902,11 +7923,11 @@
             },
             {
                 "to": {
-                    "startLine": 1421,
+                    "startLine": 1429,
                     "startColumn": 4,
-                    "startOffset": 109059,
+                    "startOffset": 109470,
                     "endColumn": 139,
-                    "endOffset": 109194
+                    "endOffset": 109605
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7921,11 +7942,11 @@
             },
             {
                 "to": {
-                    "startLine": 1422,
+                    "startLine": 1430,
                     "startColumn": 4,
-                    "startOffset": 109199,
+                    "startOffset": 109610,
                     "endColumn": 67,
-                    "endOffset": 109262
+                    "endOffset": 109673
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7940,11 +7961,11 @@
             },
             {
                 "to": {
-                    "startLine": 1423,
+                    "startLine": 1431,
                     "startColumn": 4,
-                    "startOffset": 109267,
+                    "startOffset": 109678,
                     "endColumn": 72,
-                    "endOffset": 109335
+                    "endOffset": 109746
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7959,11 +7980,11 @@
             },
             {
                 "to": {
-                    "startLine": 1424,
+                    "startLine": 1432,
                     "startColumn": 4,
-                    "startOffset": 109340,
+                    "startOffset": 109751,
                     "endColumn": 73,
-                    "endOffset": 109409
+                    "endOffset": 109820
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7978,11 +7999,11 @@
             },
             {
                 "to": {
-                    "startLine": 1425,
+                    "startLine": 1433,
                     "startColumn": 4,
-                    "startOffset": 109414,
+                    "startOffset": 109825,
                     "endColumn": 72,
-                    "endOffset": 109482
+                    "endOffset": 109893
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7997,11 +8018,11 @@
             },
             {
                 "to": {
-                    "startLine": 1426,
+                    "startLine": 1434,
                     "startColumn": 4,
-                    "startOffset": 109487,
+                    "startOffset": 109898,
                     "endColumn": 73,
-                    "endOffset": 109556
+                    "endOffset": 109967
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8016,12 +8037,12 @@
             },
             {
                 "to": {
-                    "startLine": 1427,
+                    "startLine": 1435,
                     "startColumn": 4,
-                    "startOffset": 109561,
-                    "endLine": 1428,
+                    "startOffset": 109972,
+                    "endLine": 1436,
                     "endColumn": 12,
-                    "endOffset": 109702
+                    "endOffset": 110113
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8037,12 +8058,12 @@
             },
             {
                 "to": {
-                    "startLine": 1429,
+                    "startLine": 1437,
                     "startColumn": 4,
-                    "startOffset": 109707,
-                    "endLine": 1430,
+                    "startOffset": 110118,
+                    "endLine": 1438,
                     "endColumn": 12,
-                    "endOffset": 109846
+                    "endOffset": 110257
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8058,12 +8079,12 @@
             },
             {
                 "to": {
-                    "startLine": 1431,
+                    "startLine": 1439,
                     "startColumn": 4,
-                    "startOffset": 109851,
-                    "endLine": 1432,
+                    "startOffset": 110262,
+                    "endLine": 1440,
                     "endColumn": 12,
-                    "endOffset": 109984
+                    "endOffset": 110395
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8079,11 +8100,11 @@
             },
             {
                 "to": {
-                    "startLine": 1433,
+                    "startLine": 1441,
                     "startColumn": 4,
-                    "startOffset": 109989,
+                    "startOffset": 110400,
                     "endColumn": 25,
-                    "endOffset": 110010
+                    "endOffset": 110421
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.48.4\\res\\values\\values.xml",
@@ -8098,11 +8119,11 @@
             },
             {
                 "to": {
-                    "startLine": 1434,
+                    "startLine": 1442,
                     "startColumn": 4,
-                    "startOffset": 110015,
+                    "startOffset": 110426,
                     "endColumn": 65,
-                    "endOffset": 110076
+                    "endOffset": 110487
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8117,11 +8138,11 @@
             },
             {
                 "to": {
-                    "startLine": 1435,
+                    "startLine": 1443,
                     "startColumn": 4,
-                    "startOffset": 110081,
+                    "startOffset": 110492,
                     "endColumn": 89,
-                    "endOffset": 110166
+                    "endOffset": 110577
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8136,11 +8157,11 @@
             },
             {
                 "to": {
-                    "startLine": 1436,
+                    "startLine": 1444,
                     "startColumn": 4,
-                    "startOffset": 110171,
+                    "startOffset": 110582,
                     "endColumn": 79,
-                    "endOffset": 110246
+                    "endOffset": 110657
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8155,11 +8176,11 @@
             },
             {
                 "to": {
-                    "startLine": 1437,
+                    "startLine": 1445,
                     "startColumn": 4,
-                    "startOffset": 110251,
+                    "startOffset": 110662,
                     "endColumn": 91,
-                    "endOffset": 110338
+                    "endOffset": 110749
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8174,11 +8195,11 @@
             },
             {
                 "to": {
-                    "startLine": 1438,
+                    "startLine": 1446,
                     "startColumn": 4,
-                    "startOffset": 110343,
+                    "startOffset": 110754,
                     "endColumn": 97,
-                    "endOffset": 110436
+                    "endOffset": 110847
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8193,12 +8214,12 @@
             },
             {
                 "to": {
-                    "startLine": 1439,
+                    "startLine": 1447,
                     "startColumn": 4,
-                    "startOffset": 110441,
-                    "endLine": 1440,
+                    "startOffset": 110852,
+                    "endLine": 1448,
                     "endColumn": 12,
-                    "endOffset": 110546
+                    "endOffset": 110957
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8214,11 +8235,11 @@
             },
             {
                 "to": {
-                    "startLine": 1441,
+                    "startLine": 1449,
                     "startColumn": 4,
-                    "startOffset": 110551,
+                    "startOffset": 110962,
                     "endColumn": 77,
-                    "endOffset": 110624
+                    "endOffset": 111035
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8233,11 +8254,11 @@
             },
             {
                 "to": {
-                    "startLine": 1442,
+                    "startLine": 1450,
                     "startColumn": 4,
-                    "startOffset": 110629,
+                    "startOffset": 111040,
                     "endColumn": 105,
-                    "endOffset": 110730
+                    "endOffset": 111141
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8252,11 +8273,11 @@
             },
             {
                 "to": {
-                    "startLine": 1443,
+                    "startLine": 1451,
                     "startColumn": 4,
-                    "startOffset": 110735,
+                    "startOffset": 111146,
                     "endColumn": 91,
-                    "endOffset": 110822
+                    "endOffset": 111233
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8271,11 +8292,11 @@
             },
             {
                 "to": {
-                    "startLine": 1444,
+                    "startLine": 1452,
                     "startColumn": 4,
-                    "startOffset": 110827,
+                    "startOffset": 111238,
                     "endColumn": 103,
-                    "endOffset": 110926
+                    "endOffset": 111337
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8290,11 +8311,11 @@
             },
             {
                 "to": {
-                    "startLine": 1445,
+                    "startLine": 1453,
                     "startColumn": 4,
-                    "startOffset": 110931,
+                    "startOffset": 111342,
                     "endColumn": 109,
-                    "endOffset": 111036
+                    "endOffset": 111447
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8309,12 +8330,12 @@
             },
             {
                 "to": {
-                    "startLine": 1446,
+                    "startLine": 1454,
                     "startColumn": 4,
-                    "startOffset": 111041,
-                    "endLine": 1447,
+                    "startOffset": 111452,
+                    "endLine": 1455,
                     "endColumn": 12,
-                    "endOffset": 111158
+                    "endOffset": 111569
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8330,12 +8351,12 @@
             },
             {
                 "to": {
-                    "startLine": 1448,
+                    "startLine": 1456,
                     "startColumn": 4,
-                    "startOffset": 111163,
-                    "endLine": 1451,
+                    "startOffset": 111574,
+                    "endLine": 1459,
                     "endColumn": 12,
-                    "endOffset": 111321
+                    "endOffset": 111732
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8351,12 +8372,12 @@
             },
             {
                 "to": {
-                    "startLine": 1452,
+                    "startLine": 1460,
                     "startColumn": 4,
-                    "startOffset": 111326,
-                    "endLine": 1455,
+                    "startOffset": 111737,
+                    "endLine": 1463,
                     "endColumn": 12,
-                    "endOffset": 111478
+                    "endOffset": 111889
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8372,11 +8393,11 @@
             },
             {
                 "to": {
-                    "startLine": 1456,
+                    "startLine": 1464,
                     "startColumn": 4,
-                    "startOffset": 111483,
+                    "startOffset": 111894,
                     "endColumn": 34,
-                    "endOffset": 111513
+                    "endOffset": 111924
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.48.4\\res\\values\\values.xml",
@@ -8391,12 +8412,12 @@
             },
             {
                 "to": {
-                    "startLine": 1457,
+                    "startLine": 1465,
                     "startColumn": 4,
-                    "startOffset": 111518,
-                    "endLine": 1463,
+                    "startOffset": 111929,
+                    "endLine": 1471,
                     "endColumn": 10,
-                    "endOffset": 111931
+                    "endOffset": 112342
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.48.4\\res\\values\\values.xml",
@@ -8412,12 +8433,12 @@
             },
             {
                 "to": {
-                    "startLine": 1464,
+                    "startLine": 1472,
                     "startColumn": 4,
-                    "startOffset": 111936,
-                    "endLine": 1470,
+                    "startOffset": 112347,
+                    "endLine": 1478,
                     "endColumn": 10,
-                    "endOffset": 112309
+                    "endOffset": 112720
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.48.4\\res\\values\\values.xml",
@@ -8433,12 +8454,12 @@
             },
             {
                 "to": {
-                    "startLine": 1471,
+                    "startLine": 1479,
                     "startColumn": 4,
-                    "startOffset": 112314,
-                    "endLine": 1473,
+                    "startOffset": 112725,
+                    "endLine": 1481,
                     "endColumn": 10,
-                    "endOffset": 112486
+                    "endOffset": 112897
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.48.4\\res\\values\\values.xml",
@@ -8454,12 +8475,12 @@
             },
             {
                 "to": {
-                    "startLine": 1474,
+                    "startLine": 1482,
                     "startColumn": 4,
-                    "startOffset": 112491,
-                    "endLine": 1476,
+                    "startOffset": 112902,
+                    "endLine": 1484,
                     "endColumn": 10,
-                    "endOffset": 112665
+                    "endOffset": 113076
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.48.4\\res\\values\\values.xml",
@@ -8475,12 +8496,12 @@
             },
             {
                 "to": {
-                    "startLine": 1477,
+                    "startLine": 1485,
                     "startColumn": 4,
-                    "startOffset": 112670,
-                    "endLine": 1479,
+                    "startOffset": 113081,
+                    "endLine": 1487,
                     "endColumn": 12,
-                    "endOffset": 112848
+                    "endOffset": 113259
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.48.4\\res\\values\\values.xml",
@@ -8496,12 +8517,12 @@
             },
             {
                 "to": {
-                    "startLine": 1480,
+                    "startLine": 1488,
                     "startColumn": 4,
-                    "startOffset": 112853,
-                    "endLine": 1485,
+                    "startOffset": 113264,
+                    "endLine": 1493,
                     "endColumn": 12,
-                    "endOffset": 113213
+                    "endOffset": 113624
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.48.4\\res\\values\\values.xml",
@@ -8517,11 +8538,11 @@
             },
             {
                 "to": {
-                    "startLine": 1486,
+                    "startLine": 1494,
                     "startColumn": 4,
-                    "startOffset": 113218,
+                    "startOffset": 113629,
                     "endColumn": 79,
-                    "endOffset": 113293
+                    "endOffset": 113704
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8536,11 +8557,11 @@
             },
             {
                 "to": {
-                    "startLine": 1487,
+                    "startLine": 1495,
                     "startColumn": 4,
-                    "startOffset": 113298,
+                    "startOffset": 113709,
                     "endColumn": 99,
-                    "endOffset": 113393
+                    "endOffset": 113804
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8555,11 +8576,11 @@
             },
             {
                 "to": {
-                    "startLine": 1488,
+                    "startLine": 1496,
                     "startColumn": 4,
-                    "startOffset": 113398,
+                    "startOffset": 113809,
                     "endColumn": 89,
-                    "endOffset": 113483
+                    "endOffset": 113894
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8574,11 +8595,11 @@
             },
             {
                 "to": {
-                    "startLine": 1489,
+                    "startLine": 1497,
                     "startColumn": 4,
-                    "startOffset": 113488,
+                    "startOffset": 113899,
                     "endColumn": 109,
-                    "endOffset": 113593
+                    "endOffset": 114004
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8593,11 +8614,11 @@
             },
             {
                 "to": {
-                    "startLine": 1490,
+                    "startLine": 1498,
                     "startColumn": 4,
-                    "startOffset": 113598,
+                    "startOffset": 114009,
                     "endColumn": 91,
-                    "endOffset": 113685
+                    "endOffset": 114096
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8612,12 +8633,12 @@
             },
             {
                 "to": {
-                    "startLine": 1491,
+                    "startLine": 1499,
                     "startColumn": 4,
-                    "startOffset": 113690,
-                    "endLine": 1492,
+                    "startOffset": 114101,
+                    "endLine": 1500,
                     "endColumn": 12,
-                    "endOffset": 113785
+                    "endOffset": 114196
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8633,12 +8654,12 @@
             },
             {
                 "to": {
-                    "startLine": 1493,
+                    "startLine": 1501,
                     "startColumn": 4,
-                    "startOffset": 113790,
-                    "endLine": 1494,
+                    "startOffset": 114201,
+                    "endLine": 1502,
                     "endColumn": 12,
-                    "endOffset": 113897
+                    "endOffset": 114308
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8654,12 +8675,12 @@
             },
             {
                 "to": {
-                    "startLine": 1495,
+                    "startLine": 1503,
                     "startColumn": 4,
-                    "startOffset": 113902,
-                    "endLine": 1496,
+                    "startOffset": 114313,
+                    "endLine": 1504,
                     "endColumn": 12,
-                    "endOffset": 114011
+                    "endOffset": 114422
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8675,12 +8696,12 @@
             },
             {
                 "to": {
-                    "startLine": 1497,
+                    "startLine": 1505,
                     "startColumn": 4,
-                    "startOffset": 114016,
-                    "endLine": 1498,
+                    "startOffset": 114427,
+                    "endLine": 1506,
                     "endColumn": 12,
-                    "endOffset": 114127
+                    "endOffset": 114538
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8696,12 +8717,12 @@
             },
             {
                 "to": {
-                    "startLine": 1499,
+                    "startLine": 1507,
                     "startColumn": 4,
-                    "startOffset": 114132,
-                    "endLine": 1500,
+                    "startOffset": 114543,
+                    "endLine": 1508,
                     "endColumn": 12,
-                    "endOffset": 114243
+                    "endOffset": 114654
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8717,11 +8738,11 @@
             },
             {
                 "to": {
-                    "startLine": 1501,
+                    "startLine": 1509,
                     "startColumn": 4,
-                    "startOffset": 114248,
+                    "startOffset": 114659,
                     "endColumn": 93,
-                    "endOffset": 114337
+                    "endOffset": 114748
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8736,11 +8757,11 @@
             },
             {
                 "to": {
-                    "startLine": 1502,
+                    "startLine": 1510,
                     "startColumn": 4,
-                    "startOffset": 114342,
+                    "startOffset": 114753,
                     "endColumn": 113,
-                    "endOffset": 114451
+                    "endOffset": 114862
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8755,11 +8776,11 @@
             },
             {
                 "to": {
-                    "startLine": 1503,
+                    "startLine": 1511,
                     "startColumn": 4,
-                    "startOffset": 114456,
+                    "startOffset": 114867,
                     "endColumn": 117,
-                    "endOffset": 114569
+                    "endOffset": 114980
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8774,12 +8795,12 @@
             },
             {
                 "to": {
-                    "startLine": 1504,
+                    "startLine": 1512,
                     "startColumn": 4,
-                    "startOffset": 114574,
-                    "endLine": 1505,
+                    "startOffset": 114985,
+                    "endLine": 1513,
                     "endColumn": 12,
-                    "endOffset": 114671
+                    "endOffset": 115082
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8795,12 +8816,12 @@
             },
             {
                 "to": {
-                    "startLine": 1506,
+                    "startLine": 1514,
                     "startColumn": 4,
-                    "startOffset": 114676,
-                    "endLine": 1507,
+                    "startOffset": 115087,
+                    "endLine": 1515,
                     "endColumn": 12,
-                    "endOffset": 114791
+                    "endOffset": 115202
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8816,12 +8837,12 @@
             },
             {
                 "to": {
-                    "startLine": 1508,
+                    "startLine": 1516,
                     "startColumn": 4,
-                    "startOffset": 114796,
-                    "endLine": 1509,
+                    "startOffset": 115207,
+                    "endLine": 1517,
                     "endColumn": 12,
-                    "endOffset": 114913
+                    "endOffset": 115324
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8837,11 +8858,11 @@
             },
             {
                 "to": {
-                    "startLine": 1510,
+                    "startLine": 1518,
                     "startColumn": 4,
-                    "startOffset": 114918,
+                    "startOffset": 115329,
                     "endColumn": 81,
-                    "endOffset": 114995
+                    "endOffset": 115406
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8856,11 +8877,11 @@
             },
             {
                 "to": {
-                    "startLine": 1511,
+                    "startLine": 1519,
                     "startColumn": 4,
-                    "startOffset": 115000,
+                    "startOffset": 115411,
                     "endColumn": 103,
-                    "endOffset": 115099
+                    "endOffset": 115510
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8875,11 +8896,11 @@
             },
             {
                 "to": {
-                    "startLine": 1512,
+                    "startLine": 1520,
                     "startColumn": 4,
-                    "startOffset": 115104,
+                    "startOffset": 115515,
                     "endColumn": 119,
-                    "endOffset": 115219
+                    "endOffset": 115630
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8894,11 +8915,11 @@
             },
             {
                 "to": {
-                    "startLine": 1513,
+                    "startLine": 1521,
                     "startColumn": 4,
-                    "startOffset": 115224,
+                    "startOffset": 115635,
                     "endColumn": 125,
-                    "endOffset": 115345
+                    "endOffset": 115756
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8913,11 +8934,11 @@
             },
             {
                 "to": {
-                    "startLine": 1514,
+                    "startLine": 1522,
                     "startColumn": 4,
-                    "startOffset": 115350,
+                    "startOffset": 115761,
                     "endColumn": 97,
-                    "endOffset": 115443
+                    "endOffset": 115854
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8932,11 +8953,11 @@
             },
             {
                 "to": {
-                    "startLine": 1515,
+                    "startLine": 1523,
                     "startColumn": 4,
-                    "startOffset": 115448,
+                    "startOffset": 115859,
                     "endColumn": 93,
-                    "endOffset": 115537
+                    "endOffset": 115948
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8951,11 +8972,11 @@
             },
             {
                 "to": {
-                    "startLine": 1516,
+                    "startLine": 1524,
                     "startColumn": 4,
-                    "startOffset": 115542,
+                    "startOffset": 115953,
                     "endColumn": 87,
-                    "endOffset": 115625
+                    "endOffset": 116036
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8970,11 +8991,11 @@
             },
             {
                 "to": {
-                    "startLine": 1517,
+                    "startLine": 1525,
                     "startColumn": 4,
-                    "startOffset": 115630,
+                    "startOffset": 116041,
                     "endColumn": 111,
-                    "endOffset": 115737
+                    "endOffset": 116148
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8989,11 +9010,11 @@
             },
             {
                 "to": {
-                    "startLine": 1518,
+                    "startLine": 1526,
                     "startColumn": 4,
-                    "startOffset": 115742,
+                    "startOffset": 116153,
                     "endColumn": 115,
-                    "endOffset": 115853
+                    "endOffset": 116264
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9008,11 +9029,11 @@
             },
             {
                 "to": {
-                    "startLine": 1519,
+                    "startLine": 1527,
                     "startColumn": 4,
-                    "startOffset": 115858,
+                    "startOffset": 116269,
                     "endColumn": 121,
-                    "endOffset": 115975
+                    "endOffset": 116386
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9027,11 +9048,11 @@
             },
             {
                 "to": {
-                    "startLine": 1520,
+                    "startLine": 1528,
                     "startColumn": 4,
-                    "startOffset": 115980,
+                    "startOffset": 116391,
                     "endColumn": 111,
-                    "endOffset": 116087
+                    "endOffset": 116498
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9046,12 +9067,12 @@
             },
             {
                 "to": {
-                    "startLine": 1521,
+                    "startLine": 1529,
                     "startColumn": 4,
-                    "startOffset": 116092,
-                    "endLine": 1523,
+                    "startOffset": 116503,
+                    "endLine": 1531,
                     "endColumn": 12,
-                    "endOffset": 116262
+                    "endOffset": 116673
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9067,11 +9088,11 @@
             },
             {
                 "to": {
-                    "startLine": 1524,
+                    "startLine": 1532,
                     "startColumn": 4,
-                    "startOffset": 116267,
+                    "startOffset": 116678,
                     "endColumn": 115,
-                    "endOffset": 116378
+                    "endOffset": 116789
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9086,11 +9107,11 @@
             },
             {
                 "to": {
-                    "startLine": 1525,
+                    "startLine": 1533,
                     "startColumn": 4,
-                    "startOffset": 116383,
+                    "startOffset": 116794,
                     "endColumn": 85,
-                    "endOffset": 116464
+                    "endOffset": 116875
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9105,12 +9126,12 @@
             },
             {
                 "to": {
-                    "startLine": 1526,
+                    "startLine": 1534,
                     "startColumn": 4,
-                    "startOffset": 116469,
-                    "endLine": 1527,
+                    "startOffset": 116880,
+                    "endLine": 1535,
                     "endColumn": 12,
-                    "endOffset": 116576
+                    "endOffset": 116987
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9126,12 +9147,12 @@
             },
             {
                 "to": {
-                    "startLine": 1528,
+                    "startLine": 1536,
                     "startColumn": 4,
-                    "startOffset": 116581,
-                    "endLine": 1529,
+                    "startOffset": 116992,
+                    "endLine": 1537,
                     "endColumn": 12,
-                    "endOffset": 116700
+                    "endOffset": 117111
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9147,11 +9168,11 @@
             },
             {
                 "to": {
-                    "startLine": 1530,
+                    "startLine": 1538,
                     "startColumn": 4,
-                    "startOffset": 116705,
+                    "startOffset": 117116,
                     "endColumn": 66,
-                    "endOffset": 116767
+                    "endOffset": 117178
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9166,12 +9187,12 @@
             },
             {
                 "to": {
-                    "startLine": 1531,
+                    "startLine": 1539,
                     "startColumn": 4,
-                    "startOffset": 116772,
-                    "endLine": 1532,
+                    "startOffset": 117183,
+                    "endLine": 1540,
                     "endColumn": 12,
-                    "endOffset": 116893
+                    "endOffset": 117304
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9187,11 +9208,11 @@
             },
             {
                 "to": {
-                    "startLine": 1533,
+                    "startLine": 1541,
                     "startColumn": 4,
-                    "startOffset": 116898,
+                    "startOffset": 117309,
                     "endColumn": 67,
-                    "endOffset": 116961
+                    "endOffset": 117372
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9206,12 +9227,12 @@
             },
             {
                 "to": {
-                    "startLine": 1534,
+                    "startLine": 1542,
                     "startColumn": 4,
-                    "startOffset": 116966,
-                    "endLine": 1535,
+                    "startOffset": 117377,
+                    "endLine": 1543,
                     "endColumn": 12,
-                    "endOffset": 117089
+                    "endOffset": 117500
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9227,12 +9248,12 @@
             },
             {
                 "to": {
-                    "startLine": 1536,
+                    "startLine": 1544,
                     "startColumn": 4,
-                    "startOffset": 117094,
-                    "endLine": 1537,
+                    "startOffset": 117505,
+                    "endLine": 1545,
                     "endColumn": 12,
-                    "endOffset": 117233
+                    "endOffset": 117644
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9248,12 +9269,12 @@
             },
             {
                 "to": {
-                    "startLine": 1538,
+                    "startLine": 1546,
                     "startColumn": 4,
-                    "startOffset": 117238,
-                    "endLine": 1539,
+                    "startOffset": 117649,
+                    "endLine": 1547,
                     "endColumn": 12,
-                    "endOffset": 117361
+                    "endOffset": 117772
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9269,11 +9290,11 @@
             },
             {
                 "to": {
-                    "startLine": 1540,
+                    "startLine": 1548,
                     "startColumn": 4,
-                    "startOffset": 117366,
+                    "startOffset": 117777,
                     "endColumn": 68,
-                    "endOffset": 117430
+                    "endOffset": 117841
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9288,11 +9309,11 @@
             },
             {
                 "to": {
-                    "startLine": 1541,
+                    "startLine": 1549,
                     "startColumn": 4,
-                    "startOffset": 117435,
+                    "startOffset": 117846,
                     "endColumn": 94,
-                    "endOffset": 117525
+                    "endOffset": 117936
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9307,11 +9328,11 @@
             },
             {
                 "to": {
-                    "startLine": 1542,
+                    "startLine": 1550,
                     "startColumn": 4,
-                    "startOffset": 117530,
+                    "startOffset": 117941,
                     "endColumn": 114,
-                    "endOffset": 117640
+                    "endOffset": 118051
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9326,11 +9347,11 @@
             },
             {
                 "to": {
-                    "startLine": 1543,
+                    "startLine": 1551,
                     "startColumn": 4,
-                    "startOffset": 117645,
+                    "startOffset": 118056,
                     "endColumn": 112,
-                    "endOffset": 117753
+                    "endOffset": 118164
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9345,11 +9366,11 @@
             },
             {
                 "to": {
-                    "startLine": 1544,
+                    "startLine": 1552,
                     "startColumn": 4,
-                    "startOffset": 117758,
+                    "startOffset": 118169,
                     "endColumn": 98,
-                    "endOffset": 117852
+                    "endOffset": 118263
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9364,11 +9385,11 @@
             },
             {
                 "to": {
-                    "startLine": 1545,
+                    "startLine": 1553,
                     "startColumn": 4,
-                    "startOffset": 117857,
+                    "startOffset": 118268,
                     "endColumn": 108,
-                    "endOffset": 117961
+                    "endOffset": 118372
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9383,11 +9404,11 @@
             },
             {
                 "to": {
-                    "startLine": 1546,
+                    "startLine": 1554,
                     "startColumn": 4,
-                    "startOffset": 117966,
+                    "startOffset": 118377,
                     "endColumn": 110,
-                    "endOffset": 118072
+                    "endOffset": 118483
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9402,11 +9423,11 @@
             },
             {
                 "to": {
-                    "startLine": 1547,
+                    "startLine": 1555,
                     "startColumn": 4,
-                    "startOffset": 118077,
+                    "startOffset": 118488,
                     "endColumn": 110,
-                    "endOffset": 118183
+                    "endOffset": 118594
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9421,11 +9442,11 @@
             },
             {
                 "to": {
-                    "startLine": 1548,
+                    "startLine": 1556,
                     "startColumn": 4,
-                    "startOffset": 118188,
+                    "startOffset": 118599,
                     "endColumn": 100,
-                    "endOffset": 118284
+                    "endOffset": 118695
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9440,11 +9461,11 @@
             },
             {
                 "to": {
-                    "startLine": 1549,
+                    "startLine": 1557,
                     "startColumn": 4,
-                    "startOffset": 118289,
+                    "startOffset": 118700,
                     "endColumn": 104,
-                    "endOffset": 118389
+                    "endOffset": 118800
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9459,12 +9480,12 @@
             },
             {
                 "to": {
-                    "startLine": 1550,
+                    "startLine": 1558,
                     "startColumn": 4,
-                    "startOffset": 118394,
-                    "endLine": 1551,
+                    "startOffset": 118805,
+                    "endLine": 1559,
                     "endColumn": 12,
-                    "endOffset": 118501
+                    "endOffset": 118912
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9480,12 +9501,12 @@
             },
             {
                 "to": {
-                    "startLine": 1552,
+                    "startLine": 1560,
                     "startColumn": 4,
-                    "startOffset": 118506,
-                    "endLine": 1553,
+                    "startOffset": 118917,
+                    "endLine": 1561,
                     "endColumn": 12,
-                    "endOffset": 118631
+                    "endOffset": 119042
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9501,11 +9522,11 @@
             },
             {
                 "to": {
-                    "startLine": 1554,
+                    "startLine": 1562,
                     "startColumn": 4,
-                    "startOffset": 118636,
+                    "startOffset": 119047,
                     "endColumn": 90,
-                    "endOffset": 118722
+                    "endOffset": 119133
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9520,11 +9541,11 @@
             },
             {
                 "to": {
-                    "startLine": 1555,
+                    "startLine": 1563,
                     "startColumn": 4,
-                    "startOffset": 118727,
+                    "startOffset": 119138,
                     "endColumn": 122,
-                    "endOffset": 118845
+                    "endOffset": 119256
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9539,12 +9560,12 @@
             },
             {
                 "to": {
-                    "startLine": 1556,
+                    "startLine": 1564,
                     "startColumn": 4,
-                    "startOffset": 118850,
-                    "endLine": 1557,
+                    "startOffset": 119261,
+                    "endLine": 1565,
                     "endColumn": 12,
-                    "endOffset": 118957
+                    "endOffset": 119368
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9560,11 +9581,11 @@
             },
             {
                 "to": {
-                    "startLine": 1558,
+                    "startLine": 1566,
                     "startColumn": 4,
-                    "startOffset": 118962,
+                    "startOffset": 119373,
                     "endColumn": 85,
-                    "endOffset": 119043
+                    "endOffset": 119454
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9579,11 +9600,11 @@
             },
             {
                 "to": {
-                    "startLine": 1559,
+                    "startLine": 1567,
                     "startColumn": 4,
-                    "startOffset": 119048,
+                    "startOffset": 119459,
                     "endColumn": 103,
-                    "endOffset": 119147
+                    "endOffset": 119558
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9598,12 +9619,12 @@
             },
             {
                 "to": {
-                    "startLine": 1560,
+                    "startLine": 1568,
                     "startColumn": 4,
-                    "startOffset": 119152,
-                    "endLine": 1561,
+                    "startOffset": 119563,
+                    "endLine": 1569,
                     "endColumn": 12,
-                    "endOffset": 119255
+                    "endOffset": 119666
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9619,12 +9640,12 @@
             },
             {
                 "to": {
-                    "startLine": 1562,
+                    "startLine": 1570,
                     "startColumn": 4,
-                    "startOffset": 119260,
-                    "endLine": 1563,
+                    "startOffset": 119671,
+                    "endLine": 1571,
                     "endColumn": 12,
-                    "endOffset": 119355
+                    "endOffset": 119766
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9640,12 +9661,12 @@
             },
             {
                 "to": {
-                    "startLine": 1564,
+                    "startLine": 1572,
                     "startColumn": 4,
-                    "startOffset": 119360,
-                    "endLine": 1565,
+                    "startOffset": 119771,
+                    "endLine": 1573,
                     "endColumn": 12,
-                    "endOffset": 119473
+                    "endOffset": 119884
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9661,12 +9682,12 @@
             },
             {
                 "to": {
-                    "startLine": 1566,
+                    "startLine": 1574,
                     "startColumn": 4,
-                    "startOffset": 119478,
-                    "endLine": 1567,
+                    "startOffset": 119889,
+                    "endLine": 1575,
                     "endColumn": 12,
-                    "endOffset": 119577
+                    "endOffset": 119988
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9682,12 +9703,12 @@
             },
             {
                 "to": {
-                    "startLine": 1568,
+                    "startLine": 1576,
                     "startColumn": 4,
-                    "startOffset": 119582,
-                    "endLine": 1569,
+                    "startOffset": 119993,
+                    "endLine": 1577,
                     "endColumn": 12,
-                    "endOffset": 119681
+                    "endOffset": 120092
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9703,12 +9724,12 @@
             },
             {
                 "to": {
-                    "startLine": 1570,
+                    "startLine": 1578,
                     "startColumn": 4,
-                    "startOffset": 119686,
-                    "endLine": 1571,
+                    "startOffset": 120097,
+                    "endLine": 1579,
                     "endColumn": 12,
-                    "endOffset": 119807
+                    "endOffset": 120218
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9724,11 +9745,11 @@
             },
             {
                 "to": {
-                    "startLine": 1572,
+                    "startLine": 1580,
                     "startColumn": 4,
-                    "startOffset": 119812,
+                    "startOffset": 120223,
                     "endColumn": 87,
-                    "endOffset": 119895
+                    "endOffset": 120306
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9743,11 +9764,11 @@
             },
             {
                 "to": {
-                    "startLine": 1573,
+                    "startLine": 1581,
                     "startColumn": 4,
-                    "startOffset": 119900,
+                    "startOffset": 120311,
                     "endColumn": 89,
-                    "endOffset": 119985
+                    "endOffset": 120396
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9762,11 +9783,11 @@
             },
             {
                 "to": {
-                    "startLine": 1574,
+                    "startLine": 1582,
                     "startColumn": 4,
-                    "startOffset": 119990,
+                    "startOffset": 120401,
                     "endColumn": 109,
-                    "endOffset": 120095
+                    "endOffset": 120506
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9781,11 +9802,11 @@
             },
             {
                 "to": {
-                    "startLine": 1575,
+                    "startLine": 1583,
                     "startColumn": 4,
-                    "startOffset": 120100,
+                    "startOffset": 120511,
                     "endColumn": 83,
-                    "endOffset": 120179
+                    "endOffset": 120590
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9800,11 +9821,11 @@
             },
             {
                 "to": {
-                    "startLine": 1576,
+                    "startLine": 1584,
                     "startColumn": 4,
-                    "startOffset": 120184,
+                    "startOffset": 120595,
                     "endColumn": 53,
-                    "endOffset": 120233
+                    "endOffset": 120644
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9819,11 +9840,11 @@
             },
             {
                 "to": {
-                    "startLine": 1577,
+                    "startLine": 1585,
                     "startColumn": 4,
-                    "startOffset": 120238,
+                    "startOffset": 120649,
                     "endColumn": 63,
-                    "endOffset": 120297
+                    "endOffset": 120708
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9838,11 +9859,11 @@
             },
             {
                 "to": {
-                    "startLine": 1578,
+                    "startLine": 1586,
                     "startColumn": 4,
-                    "startOffset": 120302,
+                    "startOffset": 120713,
                     "endColumn": 105,
-                    "endOffset": 120403
+                    "endOffset": 120814
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9857,11 +9878,11 @@
             },
             {
                 "to": {
-                    "startLine": 1579,
+                    "startLine": 1587,
                     "startColumn": 4,
-                    "startOffset": 120408,
+                    "startOffset": 120819,
                     "endColumn": 109,
-                    "endOffset": 120513
+                    "endOffset": 120924
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9876,11 +9897,11 @@
             },
             {
                 "to": {
-                    "startLine": 1580,
+                    "startLine": 1588,
                     "startColumn": 4,
-                    "startOffset": 120518,
+                    "startOffset": 120929,
                     "endColumn": 83,
-                    "endOffset": 120597
+                    "endOffset": 121008
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9895,11 +9916,11 @@
             },
             {
                 "to": {
-                    "startLine": 1581,
+                    "startLine": 1589,
                     "startColumn": 4,
-                    "startOffset": 120602,
+                    "startOffset": 121013,
                     "endColumn": 119,
-                    "endOffset": 120717
+                    "endOffset": 121128
                 },
                 "from": {
                     "file": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",

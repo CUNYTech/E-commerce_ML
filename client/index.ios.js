@@ -8,17 +8,19 @@ import Splash from './Splash';
 import Login from './src/components/Login/Login';
 import Register from './src/components/Register/Register';
 import Main from './src/components/Main';
-import * as firebase from 'firebase';
-const firebase = require('firebase');
+import Password from './src/components/Password';
+
+
 export const App = StackNavigator({
 
   Login: { screen: Login },
   Register: { screen: Register },
   Main: { screen: Main },
+  Password: { screen: Password }
 
 });
 
-//initialize firebase 
+//initialize firebase
 src="https://www.gstatic.com/firebasejs/4.6.1/firebase.js"
 
 
@@ -31,10 +33,10 @@ src="https://www.gstatic.com/firebasejs/4.6.1/firebase.js"
     storageBucket: "ecommerce-bbcfb.appspot.com",
     messagingSenderId: "826579844780"
   };
- const needitapp = firebase.initializeApp(config);
+ // const needitapp = firebase.initializeApp(config);
 
 //end method
- 
+
 export default class AwesomeProject extends Component {
   render() {
     return (
