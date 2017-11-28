@@ -4,7 +4,8 @@ import { Text,
         StyleSheet,
         Button,
         Image,
-        TouchableHighlight
+        TouchableHighlight,
+        TextInput
 } from 'react-native';
 import ImagePicker from 'react-native-image-picker'
 export default class Camera extends React.Component{
@@ -29,7 +30,7 @@ constructor(props){
 
 openImagePicker(){
   const options = {
-    title: 'Select Image',
+    title: 'Camera Roll',
     storageOptions: {
       skipBackup: true,
       path: 'images'
@@ -53,22 +54,61 @@ openImagePicker(){
 }
 render(){
   return <View style={styles.container}>
-       {this.state.imagePath ? <Image style={{width: 100, height: 100}} source={{uri: this.state.imagePath}} /> : null}
-       <TouchableHighlight
+
+
+      <TextInput
+       placeholder="Search"
+       placeholderTextColor="gray"
+       returnKeyType="search"
+       keyboardType="email-address"
+       autoCapitalize="none"
+       autoCorrect={false}
+       underlineColorAndroid={'transparent'}
+       style={styles.searchInput}
+      />
+
+       {this.state.imagePath ? <Image style={{width: 380, height: 380, marginBottom: 10}} source={{uri: this.state.imagePath}} /> : null}
+       <TouchableHighlight style={styles.openCameraContainer}
         onPress={this.openImagePicker.bind(this)}
        >
-        <Text>Open Camera</Text>
+        <Text style ={styles.textContainer}>Open Camera</Text>
        </TouchableHighlight>
 
+
+
   </View>
+
  }
 };
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
+  container:{
     justifyContent: 'center',
     alignItems: 'center'
+  },
+  textContainer:{
+  color:'white',
+  textAlign: 'center',
+  fontWeight: '700',
+  fontSize: 16,
+  },
+  openCameraContainer:{
+    width: 350,
+    height: 50,
+    backgroundColor: '#82C5F2',
+    borderRadius: 10,
+    marginBottom: 10,
+    paddingVertical: 13,
+  },
+  searchInput:{
+    height: 50,
+    width: 350,
+    borderRadius:10,
+    marginBottom: 10,
+    marginTop: 10,
+    color: 'black',
+    backgroundColor: 'rgb(255,255,255)',
+    paddingHorizontal:10,
   },
   cameraIcon: {
     width: 22,

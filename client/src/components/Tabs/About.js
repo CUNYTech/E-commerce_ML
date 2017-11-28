@@ -8,7 +8,7 @@ import { Text,
 export default class About extends React.Component{
 
   static navigationOptions = {
-    tabBarLabel :'About',
+    tabBarLabel :'Me',
     tabBarIcon: ({tintColor})=>(
       <Image
        style={styles.aboutIcon}
@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
     tintColor: '#1abc9c',
   },
   aboutBack: {
-    height: 200,
+    height: 300,
     width:null,
     justifyContent: 'center',
     alignItems: 'center'
