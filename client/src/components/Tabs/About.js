@@ -3,7 +3,9 @@ import { Text,
         View,
         StyleSheet,
         Button,
-        Image
+        Image,
+        TouchableOpacity,
+        TouchableHighlight
 } from 'react-native';
 export default class About extends React.Component{
 
@@ -20,9 +22,16 @@ render(){
   return <View style={styles.container}>
       <Image style={styles.aboutBack} source={require('../../images/aboutback.jpg')}>
        <Image style={styles.aboutFace} source={require('../../images/aboutface.gif')}/>
-       <Text style={styles.aboutname}>Your Name Here</Text>
       </Image>
-       <Text>About page</Text>
+       <Text>Me page</Text>
+
+       <TouchableOpacity style={styles.buttonContainer}>
+      <Text style={styles.buttonText}>Logout</Text>
+      </TouchableOpacity>
+
+      <TouchableOpacity style={styles.buttonContainer}>
+     <Text style={styles.buttonText}>Delete Account</Text>
+     </TouchableOpacity>
 
   </View>
 }
@@ -48,9 +57,17 @@ const styles = StyleSheet.create({
     tintColor: 'gray',
     marginBottom: 10,
   },
-  aboutname: {
-    backgroundColor: 'transparent',
-    fontSize: 15,
-    color: 'gray'
+  buttonContainer: {
+    backgroundColor:'#ADADAD',
+    paddingVertical: 13,
+    marginBottom: 5,
+    borderRadius:10,
+    marginRight: 40,
+    marginLeft: 40,
+  },
+  buttonText: {
+    textAlign:'center',
+    color: '#FFFFFF',
+    fontWeight: '700'
   }
 });

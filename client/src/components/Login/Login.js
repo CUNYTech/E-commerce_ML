@@ -73,7 +73,7 @@ fontSize: 18
       <Image
        style={styles.logo}
        source={require('../../images/logo.png')} />
-       <Text style={styles.title}>Ta-Da!</Text>
+       <Text style={styles.title}>TaDaa</Text>
      </View>
 
 
@@ -148,13 +148,10 @@ const styles = StyleSheet.create({
     color:'#FFF',
     marginTop:20,
     width: 180,
-    fontSize: 40,
+    fontSize: 25,
     fontWeight: 'bold',
     textAlign: 'center',
     opacity: 0.9
-  },
-  buttonForgotPass:{
-
   },
   forgotPass:{
     color: 'white',

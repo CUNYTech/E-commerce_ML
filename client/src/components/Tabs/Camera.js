@@ -5,7 +5,8 @@ import { Text,
         Button,
         Image,
         TouchableHighlight,
-        TextInput
+        TextInput,
+        TouchableOpacity
 } from 'react-native';
 import ImagePicker from 'react-native-image-picker'
 export default class Camera extends React.Component{
@@ -71,8 +72,12 @@ render(){
        <TouchableHighlight style={styles.openCameraContainer}
         onPress={this.openImagePicker.bind(this)}
        >
-        <Text style ={styles.textContainer}>Open Camera</Text>
+       <Text style ={styles.textContainer}>Open Camera</Text>
        </TouchableHighlight>
+
+       <TouchableOpacity style={styles.submitContainer}>
+       <Text style ={styles.textContainer}>Submit</Text>
+       </TouchableOpacity>
 
 
 
@@ -95,7 +100,15 @@ const styles = StyleSheet.create({
   openCameraContainer:{
     width: 350,
     height: 50,
-    backgroundColor: '#82C5F2',
+    backgroundColor: '#7DBFEB',
+    borderRadius: 10,
+    marginBottom: 10,
+    paddingVertical: 13,
+  },
+  submitContainer:{
+    width: 350,
+    height: 50,
+    backgroundColor: '#39D4DE',
     borderRadius: 10,
     marginBottom: 10,
     paddingVertical: 13,
