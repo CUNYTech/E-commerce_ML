@@ -4,7 +4,9 @@ import { Text,
         StyleSheet,
          TextInput,
         TouchableOpacity,
-         KeyboardAvoidingView
+         KeyboardAvoidingView,
+         ScrollView,
+         Dimensions,
 } from 'react-native';
  import { StackNavigator } from 'react-navigation';
 import { Actions } from 'react-native-router-flux';
@@ -65,7 +67,7 @@ ToCancel(){
   render() {
 
     return (
-        <KeyboardAvoidingView behavior="padding" style={styles.Register}>
+        <ScrollView style={{height: Dimensions.get('window').height, backgroundColor: '#1abc9c'}}>
 
 
          <View style={styles.container}>
@@ -121,7 +123,7 @@ ToCancel(){
         </View>
 
 
-        </KeyboardAvoidingView>
+        </ScrollView>
     );
   }
 }

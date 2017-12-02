@@ -6,7 +6,9 @@ import { View,
         TouchableOpacity,
         Text,
         StatusBar,
-        KeyboardAvoidingView
+        KeyboardAvoidingView,
+        ScrollView,
+        Dimensions,
 } from 'react-native';
  import { StackNavigator } from 'react-navigation';
 import { Actions } from 'react-native-router-flux';
@@ -64,9 +66,7 @@ fontSize: 18
 
     return (
 
-
-
-    <KeyboardAvoidingView behavior="padding" style={styles.container}>
+    <ScrollView style={{height: Dimensions.get('window').height, backgroundColor: '#1abc9c'}}>
 
 
    <View style={styles.logoContainer}>
@@ -124,7 +124,7 @@ fontSize: 18
 
      </View>
 
-    </KeyboardAvoidingView>
+    </ScrollView>
     );
   }
 }
@@ -138,7 +138,8 @@ const styles = StyleSheet.create({
   logoContainer:{
     alignItems: 'center',
     flexGrow: 0.7,
-    justifyContent: 'center'
+    justifyContent: 'center',
+    padding: 100
   },
   logo: {
     width: 100,
