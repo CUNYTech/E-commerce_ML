@@ -4,13 +4,6 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
-	
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>View Camera Roll</string>
-
-	<key>NSCameraUsageDescription</key>
-  <string>This app requires access to the camera.</string>
-
 	<key>CFBundleDisplayName</key>
 	<string>AwesomeProject</string>
 	<key>CFBundleExecutable</key>
@@ -42,8 +35,12 @@
 			</dict>
 		</dict>
 	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>This app requires access to the camera.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string/>
+	<string></string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>View Camera Roll</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Feather.ttf</string>
@@ -70,7 +67,6 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
 </dict>
