@@ -1,4 +1,4 @@
-#Tue Nov 21 05:47:36 EST 2017
+#Wed Nov 29 19:31:08 EST 2017
 base.0=C\:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
 file.0=C\:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

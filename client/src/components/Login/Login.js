@@ -67,6 +67,7 @@ fontSize: 18
     return (
 
 <ScrollView style={{height: Dimensions.get('window').height,  backgroundColor: '#1abc9c'}}>
+<KeyboardAvoidingView behavior="padding" >
 
    <View style={styles.logoContainer}>
       <Image
@@ -122,6 +123,7 @@ fontSize: 18
       </TouchableOpacity>
 
      </View>
+     </KeyboardAvoidingView>
 </ScrollView>
     );
   }

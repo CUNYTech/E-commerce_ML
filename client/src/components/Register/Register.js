@@ -71,7 +71,7 @@ ToCancel(){
     return (
 
       <ScrollView style={{height: Dimensions.get('window').height,  backgroundColor: '#1abc9c'}}>
-
+      <KeyboardAvoidingView behavior="padding" >
          <View style={styles.container}>
           <Text style={styles.header}>Registration</Text>
 
@@ -123,8 +123,8 @@ ToCancel(){
            <Text style={styles.buttonText}>CANCEL</Text>
            </TouchableOpacity>
         </View>
-
-        </ScrollView>
+        </KeyboardAvoidingView>
+      </ScrollView>
 
     );
   }
