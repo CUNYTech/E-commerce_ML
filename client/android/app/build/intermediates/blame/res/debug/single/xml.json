@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
+        "source": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.48.4\\res\\xml\\preferences.xml"
+    },
+    {
+        "merged": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml\\provider_paths.xml",
+        "source": "C:\\projects\\E-commerce_ML\\client\\android\\app\\build\\intermediates\\exploded-aar\\AwesomeProject\\react-native-image-picker\\unspecified\\res\\xml\\provider_paths.xml"
+    }
+]

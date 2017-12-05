@@ -6,7 +6,9 @@ import { View,
         TouchableOpacity,
         Text,
         StatusBar,
-        KeyboardAvoidingView
+        KeyboardAvoidingView,
+        ScrollView,
+        Dimensions,
 } from 'react-native';
  import { StackNavigator } from 'react-navigation';
 import { Actions } from 'react-native-router-flux';
@@ -26,13 +28,13 @@ constructor(props){
 }
 
 
-
 _login(){
   const {navigate} = this.props.navigation;
   firebaseApp.auth().signInWithEmailAndPassword(this.state.email, this.state.password).then(function(){
 
+    navigate("Main");
   }).catch(function(e) {
-  // Handle Errors here.
+
   alert(e);
    navigate("Main");
   });
@@ -64,10 +66,8 @@ fontSize: 18
 
     return (
 
-
-
-    <KeyboardAvoidingView behavior="padding" style={styles.container}>
-
+<ScrollView style={{height: Dimensions.get('window').height,  backgroundColor: '#1abc9c'}}>
+<KeyboardAvoidingView behavior="padding" >
 
    <View style={styles.logoContainer}>
       <Image
@@ -123,8 +123,8 @@ fontSize: 18
       </TouchableOpacity>
 
      </View>
-
-    </KeyboardAvoidingView>
+     </KeyboardAvoidingView>
+</ScrollView>
     );
   }
 }
@@ -135,10 +135,13 @@ const styles = StyleSheet.create({
     backgroundColor: '#1abc9c',
     padding:20
   },
+
+
   logoContainer:{
     alignItems: 'center',
     flexGrow: 0.7,
-    justifyContent: 'center'
+    justifyContent: 'center',
+    padding: 100
   },
   logo: {
     width: 100,

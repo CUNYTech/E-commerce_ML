@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
-import { Text,
-        View,
+import { View,
         StyleSheet,
-         TextInput,
+        TextInput,
+        Image,
         TouchableOpacity,
-         KeyboardAvoidingView
+        Text,
+        StatusBar,
+        KeyboardAvoidingView,
+        ScrollView,
+        Dimensions,
 } from 'react-native';
  import { StackNavigator } from 'react-navigation';
 import { Actions } from 'react-native-router-flux';
@@ -65,9 +69,9 @@ ToCancel(){
   render() {
 
     return (
-        <KeyboardAvoidingView behavior="padding" style={styles.Register}>
 
-
+      <ScrollView style={{height: Dimensions.get('window').height,  backgroundColor: '#1abc9c'}}>
+      <KeyboardAvoidingView behavior="padding" >
          <View style={styles.container}>
           <Text style={styles.header}>Registration</Text>
 
@@ -119,25 +123,25 @@ ToCancel(){
            <Text style={styles.buttonText}>CANCEL</Text>
            </TouchableOpacity>
         </View>
-
-
         </KeyboardAvoidingView>
+      </ScrollView>
+
     );
   }
 }
 const styles = StyleSheet.create({
-    Register: {
+    container: {
+      alignSelf: 'stretch',
        flex: 1,
        justifyContent: 'center',
        backgroundColor: '#1abc9c',
+       padding:100,
        paddingLeft: 60,
        paddingRight: 60,
+       marginTop: 30
 
     },
-        container: {
-      alignSelf: 'stretch',
 
-    },
     header:{
       fontSize: 24,
       color: '#fff',

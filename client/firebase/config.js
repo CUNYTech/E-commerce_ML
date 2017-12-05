@@ -9,7 +9,5 @@ import * as firebase from 'firebase';
     storageBucket: "e-commerce-340f5.appspot.com",
     messagingSenderId: "720727235568"
   };
- 
-export const firebaseApp = firebase.initializeApp(config);
- 
 
+export const firebaseApp = firebase.initializeApp(config);
