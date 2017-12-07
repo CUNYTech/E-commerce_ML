@@ -5,7 +5,8 @@ import { Text,
         TextInput,
         TouchableOpacity
 } from 'react-native';
-
+import * as firebase from 'firebase';
+import {firebaseApp} from '../../firebase/config';
 export default class Password extends Component {
 
 static navigationOptions = {
@@ -23,14 +24,20 @@ constructor(props){
     this.state = {
   email: '',
 };
-  this.ToLogin = this.ToLogin.bind(this)
 }
 
-
-ToLogin(){
+ToReset(){
   const {navigate} = this.props.navigation;
-  navigate("Login");
+  firebaseApp.auth().sendPasswordResetEmail(this.state.email).then(function(){
+    alert('Reset Password Email Sent')
+    navigate("Login");
+  }).catch(function(e) {
+
+  alert(e);
+  });
+
 }
+
 
 
   render() {
@@ -51,10 +58,11 @@ ToLogin(){
         autoCorrect={false}
         underlineColorAndroid={'transparent'}
         style={styles.passForgot}
+        value={this.state.email}
         onChangeText={(text) => this.setState({ email: text })}
         />
 
-      <TouchableOpacity style={styles.buttonContainer}  onPress={this.ToLogin}>
+      <TouchableOpacity style={styles.buttonContainer}  onPress={this.ToReset.bind(this)}>
        <Text style={styles.buttonText}>Reset Password</Text>
        </TouchableOpacity>
 
