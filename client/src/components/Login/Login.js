@@ -83,9 +83,6 @@ fontSize: 18
      <StatusBar
       barStyle="light-content"
      />
-     <TouchableOpacity style={styles.buttonForgotPass} onPress={this.ToPassword}>
-     <Text style={styles.forgotPass}>Forgot Password?</Text>
-     </TouchableOpacity>
 
       <TextInput
        placeholder="Email"
@@ -117,10 +114,14 @@ fontSize: 18
       <TouchableOpacity style={styles.buttonContainer} onPress={this._login.bind(this)}>
       <Text style={styles.buttonText}>LOGIN</Text>
       </TouchableOpacity>
-
+      <TouchableOpacity style={styles.buttonForgotPass} onPress={this.ToPassword}>
+      <Text style={styles.forgotPass}>Forgot Password?</Text>
+      </TouchableOpacity>
        <TouchableOpacity style={styles.buttonContainer} onPress={this.ToRegister}>
       <Text style={styles.buttonText}>REGISTER</Text>
       </TouchableOpacity>
+
+
 
      </View>
      </KeyboardAvoidingView>
@@ -158,8 +159,8 @@ const styles = StyleSheet.create({
   },
   forgotPass:{
     color: 'white',
-    textAlign: 'right',
-    paddingBottom: 5,
+    textAlign: 'center',
+    paddingBottom: 20,
     fontWeight: '700'
   },
   input: {

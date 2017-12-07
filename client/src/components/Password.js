@@ -38,6 +38,10 @@ ToReset(){
 
 }
 
+ToCancel(){
+  const {navigate} = this.props.navigation;
+  navigate("Login");
+}
 
 
   render() {
@@ -65,7 +69,9 @@ ToReset(){
       <TouchableOpacity style={styles.buttonContainer}  onPress={this.ToReset.bind(this)}>
        <Text style={styles.buttonText}>Reset Password</Text>
        </TouchableOpacity>
-
+       <TouchableOpacity style={styles.buttonContainer} onPress={this.ToCancel.bind(this)}>
+       <Text style={styles.buttonText}>CANCEL</Text>
+       </TouchableOpacity>
 
        </View>
 

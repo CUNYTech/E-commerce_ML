@@ -18,6 +18,13 @@ export default class About extends React.Component{
       />
     )
 }
+
+ToLogout(){
+  const {navigate} = this.props.navigation;
+  navigate("Login");
+  alert('Successfully Logged Out');
+}
+
 render(){
   return <View style={styles.container}>
       <Image style={styles.aboutBack} source={require('../../images/aboutback.jpg')}>
@@ -25,7 +32,7 @@ render(){
       </Image>
        <Text>Me page</Text>
 
-       <TouchableOpacity style={styles.buttonContainer}>
+       <TouchableOpacity style={styles.buttonContainer} onPress={this.ToLogout.bind(this)}>
       <Text style={styles.buttonText}>Logout</Text>
       </TouchableOpacity>
 
