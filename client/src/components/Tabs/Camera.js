@@ -8,7 +8,10 @@ import { Text,
         TextInput,
         TouchableOpacity
 } from 'react-native';
-import ImagePicker from 'react-native-image-picker'
+import ImagePicker from 'react-native-image-picker';
+import {app} from '../../../clari/clari';
+
+
 export default class Camera extends React.Component{
 
     static navigationOptions = {
@@ -53,6 +56,21 @@ openImagePicker(){
     }
   })
 }
+
+
+
+_predict(){
+
+  app.models.predict(Clarifai.GENERAL_MODEL, 'https://samples.clarifai.com/metro-north.jpg').then(
+  function(response) {
+    console.log(response);
+  },
+  function(err) {
+    console.error(err);
+  }
+);
+}
+
 render(){
   return <View style={styles.container}>
 
@@ -75,7 +93,7 @@ render(){
        <Text style ={styles.textContainer}>Open Camera</Text>
        </TouchableHighlight>
 
-       <TouchableOpacity style={styles.submitContainer}>
+       <TouchableOpacity style={styles.submitContainer} onPress={this._predict.bind(this)}>
        <Text style ={styles.textContainer}>Submit</Text>
        </TouchableOpacity>
 
