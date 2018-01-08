@@ -88,7 +88,7 @@ render(){
        <TouchableHighlight style={styles.openCameraContainer}
         onPress={this.openImagePicker.bind(this)}
        >
-       <Text style ={styles.textContainer}>Open Camera Luis</Text>
+       <Text style ={styles.textContainer}>Open Camera</Text>
        </TouchableHighlight>
 
        <TouchableOpacity style={styles.submitContainer} onPress={this._predict.bind(this)}>

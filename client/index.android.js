@@ -19,7 +19,7 @@ export const App = StackNavigator({
 
 });
 
-
+process.nextTick = setImmediate;
 
 export default class AwesomeProject extends Component {
 
