@@ -9,13 +9,10 @@ import { Text,
         TouchableOpacity
 } from 'react-native';
 import ImagePicker from 'react-native-image-picker';
-const Clarifai = require('clarifai');
 
-// initialize with your api key. This will also work in your browser via http://browserify.org/
-const app = new Clarifai.App({
- apiKey: 'c02ca2b458c7407f92a098ede2270857'
-});
-
+import * as firebase from 'firebase';
+import {firebaseApp} from '../../../firebase/config';
+import {app} from '../../../clari/clari';
 
 
 export default class Camera extends React.Component{
@@ -39,6 +36,13 @@ constructor(props){
 }
 
 openImagePicker(){
+
+  let user = firebase.auth().currentUser;
+  // Create a root reference
+var storageRef = firebase.storage().ref();
+
+
+
   const options = {
     title: 'Camera Roll',
     storageOptions: {
@@ -66,6 +70,7 @@ openImagePicker(){
 
 
 _predict(){
+
 
 }
 
